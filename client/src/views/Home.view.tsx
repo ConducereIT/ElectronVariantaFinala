@@ -6,8 +6,8 @@ const Home = () => {
     return (
         <React.Fragment>
            <div className="h-full w-full">
-               <img className="md:mt-96 scale-150" src={LaptopSVG} alt=""/>
                <Countdow numarMinute={10}/>
+               <img className="md:mt-96 scale-150" src={LaptopSVG} alt=""/>
            </div>
         </React.Fragment>
     )
