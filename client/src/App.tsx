@@ -1,6 +1,6 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
-import { BackendService } from "@genezio-sdk/electron_eu-north-1";
+import { BackendService } from "@genezio-sdk/test_eu-central-1";
 import "./App.css";
 
 export default function App() {

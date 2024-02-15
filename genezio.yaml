@@ -1,12 +1,12 @@
-name: electron
-region: eu-north-1
+name: test
+region: eu-central-1
 language: ts
 cloudProvider: genezio
 classes: []
 frontend:
   path: client\dist
 scripts:
-  preFrontendDeploy: npm install @genezio-sdk/electron_eu-north-1 && npm install && npm run build
+  preFrontendDeploy: npm install @genezio-sdk/test_eu-central-1 && npm install && npm run build
   preBackendDeploy: npm install
   preStartLocal: cd server && npm install
 workspace:
