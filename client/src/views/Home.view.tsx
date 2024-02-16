@@ -1,4 +1,4 @@
-import React, {Fragment} from "react";
+import React from "react";
 
 import LaptopSVG from "../assets/laptop.svg"
 import {Countdow} from "../components/Countdown.component.tsx";
@@ -7,14 +7,9 @@ import Header from "../components/Header.component.tsx";
 import BlueBlur from "../assets/Blur.svg"
 import PurpleBlur from "../assets/PurpleBlur.svg"
 import BlurAlbastru3 from "../assets/BLurAlbastru3.svg"
-import ChallengesText from "../assets/Challenges.svg"
-import BlurAlabstru4 from "../assets/bluralabstru4.svg"
-import BlurPurple5 from "../assets/BlurPurple5.svg"
-import BlurAlabstru6 from "../assets/BlurAlbastru6.svg"
-import Proba1 from "../assets/Proba1.svg"
-import Proba2 from "../assets/Proba2.svg"
-import Proba3 from "../assets/Proba3.svg"
-import Premii from "../assets/Premii.svg"
+
+// Sections
+import {Challenges} from "../components/section/Challenges.tsx";
 
 const Home = () => {
     return (
@@ -44,84 +39,8 @@ const Home = () => {
                 </div>
             </div>
 
-
-
-
-
-            // sectiune 2
             <div id="Challenges" className="mt-96">
-                <img src={BlurAlabstru4} className="absolute -mt-96 -translate-y-44 -ml-96 -z-10 opacity-85"/>
-                <img src={BlurPurple5}
-                     className="absolute -mt-72 -translate-y-44 right-0 mr-80 -translate-x-10 -z-10 opacity-85 scale-125"/>
-                <img src={BlurAlabstru6}
-                     className="absolute mt-20 scale-125 mr-28 -translate-y-44 right-0  translate-x-10 -z-10 opacity-85"/>
-                <img src={ChallengesText} className="scale-125 absolute left-1/2 transform -translate-x-1/2 -mt-36"/>
-                <div className="flex justify-between h-screen">
-                    <div className="w-[30%] h-[30%] bg-white flex flex-col justify-center items-center">
-                        <img className="mb-4 scale-[110%]" src={Proba1} alt=""/>
-                        <div className="flex mt-5 -ml-5">
-                            <button
-                                className="bg-[#EFEFF0] rounded-md text-black w-12 mr-2 flex items-center justify-center h-12">
-                                <span>
-                                    <span className="text-black">{"🛈"}</span>
-                                </span>
-                            </button>
-                            <button
-                                className="bg-[#FFC947] rounded-md text-black w-60 flex items-center justify-center h-12">
-                                <span className="mr-2 scale-100 font-bold">Inscrie-te aici</span>
-                                <span
-                                    className="inline-block bg-black text-white rounded-full h-6 w-6 flex justify-center items-center ml-5"> <Fragment></Fragment>
-                                    <span className="text-white">{">"}</span>
-                                </span>
-                            </button>
-                        </div>
-                    </div>
-
-                    <div className="w-[30%] h-[30%] bg-white flex flex-col justify-center items-center">
-                        <img className="mb-4 scale-[110%]" src={Proba2} alt=""/>
-                        <div className="flex mt-5 -ml-5">
-                            <button
-                                className="bg-[#EFEFF0] rounded-md text-black w-12 mr-2 flex items-center justify-center h-12">
-                                <span>
-                                    <span className="text-black">{"🛈"}</span>
-                                </span>
-                            </button>
-                            <button
-                                className="bg-[#FFC947] rounded-md text-black w-60 flex items-center justify-center h-12">
-                                <span className="mr-2 scale-100 font-bold">Inscrie-te aici</span>
-                                <span
-                                    className="inline-block bg-black text-white rounded-full h-6 w-6 flex justify-center items-center ml-5"> <Fragment></Fragment>
-                                    <span className="text-white">{">"}</span>
-                                </span>
-                            </button>
-                        </div>
-                    </div>
-
-                    <div className="w-[30%] h-[30%] bg-white flex flex-col justify-center items-center">
-                        <img className="mb-4 scale-[110%]" src={Proba3} alt=""/>
-                        <div className="flex mt-5 -ml-5">
-                            <button
-                                className="bg-[#EFEFF0] rounded-md text-black w-12 mr-2 flex items-center justify-center h-12">
-                                <span>
-                                    <span className="text-black">{"🛈"}</span>
-                                </span>
-                            </button>
-                            <button
-                                className="bg-[#FFC947] rounded-md text-black w-60 flex items-center justify-center h-12">
-                                <span className="mr-2 scale-100 font-bold">Inscrie-te aici</span>
-                                <span
-                                    className="inline-block bg-black text-white rounded-full h-6 w-6 flex justify-center items-center ml-5"> <Fragment></Fragment>
-                                    <span className="text-white">{">"}</span>
-                                </span>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div className="flex justify-between h-screen -mt-96 -translate-y-60">
-                    <img src={Premii} className="w-[30%] scale-[200%] -mt-96" alt=""/>
-                    <img src={Premii} className="w-[30%] scale-[200%] -mt-96 ml-32" alt=""/>
-                    <img src={Premii} className="w-[30%] scale-[200%] -mt-96 ml-44" alt=""/>
-                </div>
+                <Challenges />
             </div>
         </React.Fragment>
     )
