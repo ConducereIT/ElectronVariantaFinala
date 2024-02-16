@@ -5,7 +5,7 @@ export interface CountdownProps {
 
 export const Countdow: React.FC<CountdownProps> = ({ numarMinute }) => {
     const [countdownDate] = useState<number>(
-        new Date("10/31/2023").getTime() + numarMinute * 60 * 1000
+        new Date("3/9/2024").getTime() + numarMinute * 60 * 1000
     );
 
     const [state, setState] = useState<{
@@ -58,9 +58,9 @@ export const Countdow: React.FC<CountdownProps> = ({ numarMinute }) => {
 
     return (
         <>
-            <div className="w-full flex justify-center text-[#78e800] md:scale-[100%] scale-[40%] mb-24 z-10 ">
-                <div className="time-section">
-                    <div className="time text-8xl font-extrabold">
+            <div className="w-full flex justify-center text-[#FFFFFF] md:scale-[100%] scale-[40%] mb-24 z-10 text-frumos space-x-4">
+                <div className="time-section ">
+                    <div className="time text-8xl font-extrabold text-frumos">
                         {state.days || "0"}
                     </div>
                     <small className="time-text text-white">Zile</small>
@@ -83,15 +83,7 @@ export const Countdow: React.FC<CountdownProps> = ({ numarMinute }) => {
                     </div>
                     <small className="time-text text-white">Minute</small>
                 </div>
-                <div className="time-section">
-                    <div className="time text-8xl font-extrabold text-white">:</div>
-                </div>
-                <div className="time-section">
-                    <div className="time text-8xl font-extrabold">
-                        {state.seconds || "00"}
-                    </div>
-                    <small className="time-text text-white">Secunde</small>
-                </div>
+
             </div>
         </>
     );
