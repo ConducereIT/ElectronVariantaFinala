@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f12428e0-a60f-437b-91cc-3ac0504e579d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/client/src/assets/Juriu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/section/Juriu.component.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/section/Challenges.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/section/Challenges.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/views/Home.view.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/Home.view.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genezio.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/genezio.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -82,7 +88,7 @@
       <workItem from="1708018693753" duration="877000" />
       <workItem from="1708019591016" duration="26061000" />
       <workItem from="1708075227594" duration="27000" />
-      <workItem from="1708075269725" duration="6896000" />
+      <workItem from="1708075269725" duration="11683000" />
     </task>
     <servers />
   </component>

@@ -2,14 +2,14 @@ name: test
 region: eu-central-1
 language: ts
 cloudProvider: genezio
-classes: []
-frontend:
-  path: client\dist
 scripts:
-  preFrontendDeploy: npm install @genezio-sdk/test_eu-central-1 && npm install && npm run build
   preBackendDeploy: npm install
+  preFrontendDeploy: npm install @genezio-sdk/test_eu-central-1 && npm install && npm run build
   preStartLocal: cd server && npm install
+frontend:
+  path: client/dist
+  subdomain: sapphire-tame-lobster
+packageManager: npm
 workspace:
   backend: server
   frontend: client
-packageManager: npm

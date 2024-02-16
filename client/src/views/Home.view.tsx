@@ -10,6 +10,7 @@ import BlurAlbastru3 from "../assets/BLurAlbastru3.svg"
 
 // Sections
 import {Challenges} from "../components/section/Challenges.tsx";
+import {JuriuSection} from "../components/section/Juriu.component.tsx";
 
 const Home = () => {
     return (
@@ -41,6 +42,10 @@ const Home = () => {
 
             <div id="Challenges" className="mt-96">
                 <Challenges />
+            </div>
+
+            <div id="Juriu" className="bg-black mt-3 h-screen mt-5   w-auto" >
+                <JuriuSection />
             </div>
         </React.Fragment>
     )
