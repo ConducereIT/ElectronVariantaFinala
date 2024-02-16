@@ -214,11 +214,6 @@ export const Challenges = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flex justify-between">
-                    <img src={Premii} className="w-[30%] " alt=""/>
-                    <img src={Premii} className="w-[30%]" alt=""/>
-                    <img src={Premii} className="w-[30%] " alt=""/>
-                </div>
             </div>
         </>
     )
