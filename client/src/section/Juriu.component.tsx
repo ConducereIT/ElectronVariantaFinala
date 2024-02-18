@@ -1,5 +1,5 @@
-import JuriuText from "../../assets/Juriu.svg"
-import Carousel from "../Carousel.component.tsx";
+import JuriuText from "../assets/Juriu.svg"
+import Carousel from "../components/Carousel.component.tsx";
 export const JuriuSection = () => {
 
     const slides = [

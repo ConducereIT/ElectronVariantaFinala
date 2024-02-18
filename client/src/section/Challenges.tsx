@@ -1,15 +1,15 @@
 import {Fragment, useState} from "react";
 
-import ChallengesText from "../../assets/Challenges.svg"
-import BlurAlabstru4 from "../../assets/bluralabstru4.svg"
-import BlurPurple5 from "../../assets/BlurPurple5.svg"
-import BlurAlabstru6 from "../../assets/BlurAlbastru6.svg"
-import Proba1 from "../../assets/Proba1.svg"
-import Proba2 from "../../assets/Proba2.svg"
-import Proba3 from "../../assets/Proba3.svg"
-import CheckIcon from "../../assets/Check icon.svg"
+import ChallengesText from "../assets/Challenges.svg"
+import BlurAlabstru4 from "../assets/bluralabstru4.svg"
+import BlurPurple5 from "../assets/BlurPurple5.svg"
+import BlurAlabstru6 from "../assets/BlurAlbastru6.svg"
+import Proba1 from "../assets/Proba1.svg"
+import Proba2 from "../assets/Proba2.svg"
+import Proba3 from "../assets/Proba3.svg"
+import CheckIcon from "../assets/Check icon.svg"
 // import JuratiButton from "../../assets/JuratiButton.svg"
-import Premii from "../../assets/Premii.svg"
+import Premii from "../assets/Premii.svg"
 
 export const Challenges = () => {
 
@@ -28,7 +28,7 @@ export const Challenges = () => {
             <img src={BlurPurple5} alt="blur" className="absolute -mt-72 -translate-y-44 right-0 mr-80 -translate-x-10 -z-10 opacity-85 scale-125"/>
             <img src={BlurAlabstru6} alt="blue" className="absolute mt-20 scale-125 mr-36 -translate-y-44 right-0  translate-x-10 -z-10 opacity-85"/>
             <img src={ChallengesText} alt="Challenges Text" className="scale-125 absolute left-1/2 transform -translate-x-1/2 -mt-36"/>
-            <div className="mb-44">
+            <div className="mb-44 font-source-code-pro">
                 <div className="flex justify-between">
                     <div className={`w-[30%] relative ${expandedDiv === 1 ? 'h-[80%]' : 'h-[30%]'} bg-white flex flex-col justify-center items-center rounded-xl transition-all duration-500`}>
                         <img className={`mb-4 scale-[110%] relative top-2 ${expandedDiv === 1 ? "mt-10" : "mt-5"}`} src={Proba1} alt=""/>
@@ -78,7 +78,7 @@ export const Challenges = () => {
 
                             <button
                                 className="bg-[#FFC947] rounded-md text-black w-60 flex items-center justify-center h-12">
-                                <span className="mr-2 scale-100 font-bold">Inscrie-te aici</span>
+                                <span className="mr-2 scale-100 font-bold ">Inscrie-te aici</span>
                                 <span
                                     className="inline-block bg-black text-white rounded-full h-6 w-6 flex justify-center items-center ml-5"> <Fragment></Fragment>
                                 <span className="text-white">{">"}</span>
