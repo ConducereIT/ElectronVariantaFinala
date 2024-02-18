@@ -11,15 +11,16 @@ import BlurAlbastru3 from "../assets/BLurAlbastru3.svg"
 // Sections
 import {Challenges} from "../components/section/Challenges.tsx";
 import {JuriuSection} from "../components/section/Juriu.component.tsx";
+import Footer from "../components/section/Footer.component.tsx";
 
 const Home = () => {
     return (
         <React.Fragment>
             <Header/>
-            <img className="absolute -left-96 -ml-28 -top-80 opacity-95 -z-10" src={BlueBlur} alt=""/>
+            <img id="AboutUs" className="absolute -left-96 -ml-28 -top-80 opacity-95 -z-10" src={BlueBlur} alt=""/>
             <img className="absolute scale-125 left-64 rounded-full top-96 opacity-95 -z-10" src={PurpleBlur} alt=""/>
             <img className="absolute right-0 translate-y-44  opacity-96 -z-10" src={BlurAlbastru3} alt=""/>
-            <div className="mt-30">
+            <div  className="mt-30">
                 <div className="h-96 mt-40 mb-20 z-10">
                     <MainText/>
                     <button
@@ -40,12 +41,16 @@ const Home = () => {
                 </div>
             </div>
 
-            <div id="Challenges" className="mt-96">
+            <div id="" className="mt-96">
                 <Challenges />
             </div>
 
-            <div id="Juriu" className="bg-black mt-3 h-screen mt-5   w-auto" >
+            <div id="Juriu" className="bg-black mt-3 h-screen mt-5  w-auto" >
                 <JuriuSection />
+            </div>
+
+            <div className="mt-3 w-[100%] bg-white  h-72 absolute left-0">
+                <Footer />
             </div>
         </React.Fragment>
     )

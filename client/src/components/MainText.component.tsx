@@ -3,7 +3,7 @@ import TextLogo from "../assets/textlogo.svg"
 export const MainText = () => {
     return (
         <>
-            <div className="flex justify-center items-center">
+            <div  className="flex justify-center items-center">
                 <img className="h-48" src={TextLogo} alt=""/>
             </div>
 

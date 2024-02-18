@@ -24,7 +24,7 @@ export const Challenges = () => {
 
     return (
         <>
-            <img src={BlurAlabstru4} alt="Blur" className="absolute -mt-96 -translate-y-44 -ml-96 -z-10 opacity-85"/>
+            <img id="Challenges" src={BlurAlabstru4} alt="Blur" className="absolute -mt-96 -translate-y-44 -ml-96 -z-10 opacity-85"/>
             <img src={BlurPurple5} alt="blur" className="absolute -mt-72 -translate-y-44 right-0 mr-80 -translate-x-10 -z-10 opacity-85 scale-125"/>
             <img src={BlurAlabstru6} alt="blue" className="absolute mt-20 scale-125 mr-36 -translate-y-44 right-0  translate-x-10 -z-10 opacity-85"/>
             <img src={ChallengesText} alt="Challenges Text" className="scale-125 absolute left-1/2 transform -translate-x-1/2 -mt-36"/>

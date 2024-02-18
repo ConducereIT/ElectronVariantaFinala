@@ -9,6 +9,7 @@
 }
 
 :root {
+  overflow-x: hidden;
   background-color: #091931;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
