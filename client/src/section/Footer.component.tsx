@@ -20,6 +20,7 @@ const Footer = () =>{
                     <img onClick={() =>         window.location.href = 'https://www.instagram.com/electron.lse?igsh=cmtiemwxZmtrcHdx&utm_source=qr'} src={Instagram} alt="Instagram"/>
                     <img onClick={() =>         window.location.href = 'https://www.linkedin.com/company/electronlse/'} src={Linkedin} alt="LinkedIn"/>
                 </div>
+                <h6 className="font-source-code-pro mt-8 text-left  text-xs">© Copyright s2024 | All Rights Reserved</h6>
             </div>
         </>
     );
