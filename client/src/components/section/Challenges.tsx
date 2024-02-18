@@ -8,7 +8,7 @@ import Proba1 from "../../assets/Proba1.svg"
 import Proba2 from "../../assets/Proba2.svg"
 import Proba3 from "../../assets/Proba3.svg"
 import CheckIcon from "../../assets/Check icon.svg"
-import JuratiButton from "../../assets/JuratiButton.svg"
+// import JuratiButton from "../../assets/JuratiButton.svg"
 import Premii from "../../assets/Premii.svg"
 
 export const Challenges = () => {
@@ -30,7 +30,7 @@ export const Challenges = () => {
             <img src={ChallengesText} alt="Challenges Text" className="scale-125 absolute left-1/2 transform -translate-x-1/2 -mt-36"/>
             <div className="mb-44">
                 <div className="flex justify-between">
-                    <div className={`w-[30%] ${expandedDiv === 1 ? 'h-[80%]' : 'h-[30%]'} bg-white flex flex-col justify-center items-center rounded-xl transition-all duration-500`}>
+                    <div className={`w-[30%] relative ${expandedDiv === 1 ? 'h-[80%]' : 'h-[30%]'} bg-white flex flex-col justify-center items-center rounded-xl transition-all duration-500`}>
                         <img className={`mb-4 scale-[110%] relative top-2 ${expandedDiv === 1 ? "mt-10" : "mt-5"}`} src={Proba1} alt=""/>
 
                         {
@@ -57,10 +57,10 @@ export const Challenges = () => {
                                         </div>
                                     </div>
 
-                                    <div className="text-black flex text-lg ml-3 mt-10" >
-                                        <img src={JuratiButton} alt=""/>
-                                        <h3 className="ml-5" >Vezi List Jurati</h3>
-                                    </div>
+                                    {/*<div className="text-black flex text-lg ml-3 mt-10" >*/}
+                                    {/*    <img src={JuratiButton} alt=""/>*/}
+                                    {/*    <h3 className="ml-5" >Vezi List Jurati</h3>*/}
+                                    {/*</div>*/}
 
                                 </div>
                                 :
@@ -84,10 +84,10 @@ export const Challenges = () => {
                                 <span className="text-white">{">"}</span>
                             </span>
                             </button>
-                            <img src={Premii} className="absolute -z-10 left-44 -mt-32 -ml-1.5" />
+                            <img src={Premii} className="absolute -z-10 scale-[200%]"/>
                         </div>
                     </div>
-                    <div className={`w-[30%] ${expandedDiv === 2 ? 'h-[80%]' : 'h-[30%]'} bg-white flex flex-col justify-center items-center rounded-xl transition-all duration-500`}>
+                    <div className={`w-[30%] relative ${expandedDiv === 2 ? 'h-[80%]' : 'h-[30%]'} bg-white flex flex-col justify-center items-center rounded-xl transition-all duration-500`}>
                         <img className={`mb-4 scale-[110%] relative top-2 ${expandedDiv === 2 ? "mt-10" : "mt-5"}`}
                              src={Proba2} alt=""/>
 
@@ -120,10 +120,10 @@ export const Challenges = () => {
                                         </div>
                                     </div>
 
-                                    <div className="text-black flex text-lg ml-3 mt-10">
-                                        <img src={JuratiButton} alt=""/>
-                                        <h3 className="ml-5">Vezi List Jurati</h3>
-                                    </div>
+                                    {/*<div className="text-black flex text-lg ml-3 mt-10">*/}
+                                    {/*    <img src={JuratiButton} alt=""/>*/}
+                                    {/*    <h3 className="ml-5">Vezi List Jurati</h3>*/}
+                                    {/*</div>*/}
 
                                 </div>
                                 :
@@ -147,11 +147,11 @@ export const Challenges = () => {
                                 <span className="text-white">{">"}</span>
                             </span>
                             </button>
-                            <img src={Premii} className="absolute -z-10 ml-[6.2%] left-1/4   -mt-32 "/>
+                            <img src={Premii} className="absolute -z-10 scale-[200%]"/>
                         </div>
                     </div>
 
-                    <div className={`w-[30%] ${expandedDiv === 3 ? 'h-[80%]' : 'h-[30%]'} bg-white flex flex-col justify-center items-center rounded-xl transition-all duration-500`}>
+                    <div className={`w-[30%] relative  ${expandedDiv === 3 ? 'h-[80%]' : 'h-[30%]'} bg-white flex flex-col justify-center items-center rounded-xl transition-all duration-500`}>
                         <img className={`mb-4 scale-[110%] relative top-2 ${expandedDiv === 3 ? "mt-10" : "mt-5"}`}
                              src={Proba3} alt=""/>
 
@@ -180,10 +180,10 @@ export const Challenges = () => {
                                         </div>
                                     </div>
 
-                                    <div className="text-black flex text-lg ml-3 mt-10">
-                                        <img src={JuratiButton} alt=""/>
-                                        <h3 className="ml-5">Vezi List Jurati</h3>
-                                    </div>
+                                    {/*<div className="text-black flex text-lg ml-3 mt-10">*/}
+                                    {/*    <img src={JuratiButton} alt=""/>*/}
+                                    {/*    <h3 className="ml-5">Vezi List Jurati</h3>*/}
+                                    {/*</div>*/}
 
                                 </div>
                                 :
@@ -207,7 +207,7 @@ export const Challenges = () => {
                                 <span className="text-white">{">"}</span>
                             </span>
                             </button>
-                            <img src={Premii} className="absolute -z-10  right-32   -mt-32 "/>
+                            <img src={Premii} className="absolute -z-10 scale-[200%]"/>
                         </div>
                     </div>
                 </div>

@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f12428e0-a60f-437b-91cc-3ac0504e579d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/assets/Juriu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/section/Juriu.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Carousel.component.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/section/Challenges.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/section/Challenges.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/views/Home.view.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/Home.view.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/genezio.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/genezio.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/section/Juriu.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/section/Juriu.component.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,22 +40,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/mihnea/org/ElectronFinal/ElectronVariantaFinala/client/src/assets&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/home/mihnea/org/ElectronFinal/ElectronVariantaFinala/client/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "dev",
+    "last_opened_file_path": "/home/mihnea/org/ElectronFinal/ElectronVariantaFinala/client/src/assets",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "ts.external.directory.path": "/home/mihnea/org/ElectronFinal/ElectronVariantaFinala/client/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -88,7 +85,7 @@
       <workItem from="1708018693753" duration="877000" />
       <workItem from="1708019591016" duration="26061000" />
       <workItem from="1708075227594" duration="27000" />
-      <workItem from="1708075269725" duration="11683000" />
+      <workItem from="1708075269725" duration="13411000" />
     </task>
     <servers />
   </component>
