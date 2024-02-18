@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f12428e0-a60f-437b-91cc-3ac0504e579d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/views/Home.view.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/Home.view.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +84,7 @@
       <workItem from="1708018693753" duration="877000" />
       <workItem from="1708019591016" duration="26061000" />
       <workItem from="1708075227594" duration="27000" />
-      <workItem from="1708075269725" duration="28879000" />
+      <workItem from="1708075269725" duration="29252000" />
     </task>
     <servers />
   </component>
