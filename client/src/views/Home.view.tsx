@@ -53,7 +53,7 @@ const Home = () => {
                 {/*<JuriuSection />*/}
             </div>
 
-            <div className="mt-8 w-[100%] bg-[#000000] absolute h-72  left-0 mt-20">
+            <div className="mt-8 w-[100%] bg-[#000000] absolute h-80  left-0 mt-20">
                 <Footer/>
             </div>
         </React.Fragment>
