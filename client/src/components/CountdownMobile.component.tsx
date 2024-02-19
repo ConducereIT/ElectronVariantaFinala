@@ -3,7 +3,7 @@ export interface CountdownProps {
   numarMinute: number;
 }
 
-export const Countdow: React.FC<CountdownProps> = ({ numarMinute }) => {
+export const CountdownMobile: React.FC<CountdownProps> = ({ numarMinute }) => {
   const [countdownDate] = useState<number>(
     new Date("3/9/2024").getTime() + numarMinute * 60 * 1000
   );
@@ -58,27 +58,27 @@ export const Countdow: React.FC<CountdownProps> = ({ numarMinute }) => {
 
   return (
     <>
-      <div className="w-full flex justify-center text-[#FFFFFF] md:scale-[100%] scale-[40%] mb-24 z-10 text-frumos space-x-4">
+      <div className="w-full flex justify-center text-[#FFFFFF]  z-10 text-frumos space-x-4">
         <div className="time-section ">
-          <div className="time text-8xl font-extrabold text-frumos">
+          <div className="time text-xl font-extrabold text-frumos">
             {state.days || "0"}
           </div>
           <small className="time-text text-white">Zile</small>
         </div>
         <div className="time-section">
-          <div className="time text-8xl font-extrabold text-white">:</div>
+          <div className="time text-xl font-extrabold text-white">:</div>
         </div>
         <div className="time-section">
-          <div className="time text-8xl font-extrabold">
+          <div className="time text-xl font-extrabold">
             {state.hours || "00"}
           </div>
           <small className="time-text text-white">Ore</small>
         </div>
         <div className="time-section">
-          <div className="time text-8xl font-extrabold text-white">:</div>
+          <div className="time text-xl font-extrabold text-white">:</div>
         </div>
         <div className="time-section">
-          <div className="time text-8xl font-extrabold">
+          <div className="time text-xl font-extrabold">
             {state.minutes || "00"}
           </div>
           <small className="time-text text-white">Minute</small>
