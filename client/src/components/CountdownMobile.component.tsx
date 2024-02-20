@@ -60,25 +60,25 @@ export const CountdownMobile: React.FC<CountdownProps> = ({ numarMinute }) => {
     <>
       <div className="w-full flex justify-center text-[#FFFFFF]  z-10 text-frumos space-x-4">
         <div className="time-section ">
-          <div className="time text-xl font-extrabold text-frumos">
+          <div className="time text-4xl font-extrabold text-frumos">
             {state.days || "0"}
           </div>
           <small className="time-text text-white">Zile</small>
         </div>
         <div className="time-section">
-          <div className="time text-xl font-extrabold text-white">:</div>
+          <div className="time text-4xl font-extrabold text-white">:</div>
         </div>
         <div className="time-section">
-          <div className="time text-xl font-extrabold">
+          <div className="time text-4xl font-extrabold">
             {state.hours || "00"}
           </div>
           <small className="time-text text-white">Ore</small>
         </div>
         <div className="time-section">
-          <div className="time text-xl font-extrabold text-white">:</div>
+          <div className="time text-4xl font-extrabold text-white">:</div>
         </div>
         <div className="time-section">
-          <div className="time text-xl font-extrabold">
+          <div className="time text-4xl font-extrabold">
             {state.minutes || "00"}
           </div>
           <small className="time-text text-white">Minute</small>
