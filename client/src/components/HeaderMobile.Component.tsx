@@ -92,7 +92,7 @@ export default function HeaderMobile() {
           {!nav && (
             <AiOutlineMenu
               onClick={handleNav}
-              className=" z-[97] md:hidden text-blue-950 outline-4 font-extrabold"
+              className=" z-[99] md:hidden text-blue-950 outline-4 font-extrabold"
               size={20}
               color="white"
             />

@@ -58,7 +58,7 @@ export const CountdownMobile: React.FC<CountdownProps> = ({ numarMinute }) => {
 
   return (
     <>
-      <div className="w-full flex justify-center text-[#FFFFFF]  z-10 text-frumos space-x-4">
+      <div className="w-full flex justify-center text-[#FFFFFF] -mt-4 z-10 text-frumos space-x-4">
         <div className="time-section ">
           <div className="time text-4xl font-extrabold text-frumos">
             {state.days || "0"}
