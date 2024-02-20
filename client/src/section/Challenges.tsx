@@ -10,8 +10,8 @@ import Proba3 from "../assets/Proba3.svg"
 import CheckIcon from "../assets/Check icon.svg"
 // import JuratiButton from "../../assets/JuratiButton.svg"
 import PremiiML from "../assets/Premii-ML&AI.svg"
-import PremiiCapture from "../assets/Premii-Capture.svg"
-import PremiiConnect from "../assets/Premii-Connect.svg"
+import PremiiCapture from "../assets/PremiiCapture.svg"
+import PremiiConnect from "../assets/PremiiConnect.svg"
 
 export const Challenges = () => {
 
