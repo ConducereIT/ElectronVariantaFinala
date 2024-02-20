@@ -18,7 +18,8 @@ import Footer from "../section/Footer.component.tsx";
 import MainTextMobile from "../components/MainTextMobile.component.tsx";
 import { CountdownMobile } from "../components/CountdownMobile.component.tsx";
 import HeaderMobile from "../components/HeaderMobile.Component.tsx";
-
+import Location from "../assets/Frame 12.svg";
+import Date from "../assets/Frame 13.svg";
 const Home = () => {
   return (
     <React.Fragment>
@@ -134,9 +135,19 @@ const Home = () => {
               <CountdownMobile numarMinute={10} />
             </div>
             <img
-              className="md:mt-10 scale-125 object-contain w-[95%]"
+              className="absolute md:mt-10 scale-100 object-contain w-[95%] -translate-y-8"
               src={LaptopMobileSVG}
-              alt=""
+              alt="Laptop"
+            />
+            <img
+              src={Location}
+              className=" absolute z-10 -translate-y-40 scale-100"
+              alt="Location"
+            />
+            <img
+              src={Date}
+              className=" absolute z-20 translate-y-5 scale-100"
+              alt="Date"
             />
           </div>
         </div>
