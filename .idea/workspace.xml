@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f12428e0-a60f-437b-91cc-3ac0504e579d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/client/src/assets/LaptopMobile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/CountdownMobile.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/MainTextMobile.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Countdown.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Countdown.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/views/Home.view.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/Home.view.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +51,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "dev",
+    "git-widget-placeholder": "Merging dev",
     "last_opened_file_path": "/home/mihnea/org/ElectronFinal/ElectronVariantaFinala/client/src/assets",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
