@@ -20,6 +20,7 @@ import { CountdownMobile } from "../components/CountdownMobile.component.tsx";
 import HeaderMobile from "../components/HeaderMobile.Component.tsx";
 import Location from "../assets/Frame 12.svg";
 import Date from "../assets/Frame 13.svg";
+import { ChallengesMobile } from "../section/ChallengesMobile.tsx";
 const Home = () => {
   return (
     <React.Fragment>
@@ -48,22 +49,26 @@ const Home = () => {
       <div className="hidden md:block mt-30  h-auto w-auto">
         <div className="h-96 mt-40 mb-20 z-10">
           <MainText />
-            <a>
-              <button className="bg-[#FFC947] rounded-md  -mt-2 mb-10 text-black w-60 flex items-center absolute mt-10 h-12 left-1/2 transform -translate-x-1/2"
-                onClick={() =>
-                  (window.open('https://cyber-edu.co/register?token=40a121ba7d8ac969b5d08e041632f81ad4a599d11f054d4d1812ac94f480c4e34b4a9548de58bdf3', '_blank'))
-                }
-              >
-                <span className="mr-2 scale-125 absolute left-10 font-bold">
-                  Inscrie-te aici
+          <a href="">
+            <button
+              className="bg-[#FFC947] rounded-md mb-10 text-black w-60 flex items-center absolute mt-8 h-12 left-1/2 transform -translate-x-1/2"
+              onClick={() =>
+                window.open(
+                  "https://cyber-edu.co/register?token=40a121ba7d8ac969b5d08e041632f81ad4a599d11f054d4d1812ac94f480c4e34b4a9548de58bdf3",
+                  "_blank"
+                )
+              }
+            >
+              <span className="mr-2 scale-125 absolute left-10 font-bold">
+                Inscrie-te aici
+              </span>
+              <div className="absolute right-2.5">
+                <span className="  bg-black text-white rounded-full h-6 w-6 flex justify-center items-center">
+                  <span className="text-white  ">{">"}</span>
                 </span>
-                <div className="absolute right-2.5">
-                  <span className="inline-block   bg-black text-white rounded-full h-6 w-6 flex justify-center items-center">
-                    <span className="text-white  ">{">"}</span>
-                  </span>
-                </div>
-              </button>
-            </a>
+              </div>
+            </button>
+          </a>
         </div>
         <div className="h-full w-full mt-60 ">
           <div className="absolute z-10 left-[30%] -mt-10 right-[30%]">
@@ -83,9 +88,6 @@ const Home = () => {
       <div className="hidden md:block mt-8 w-[100%] bg-[#000000] absolute h-80  left-0 mt-20">
         <Footer />
       </div>
-
-
-
 
       {/* Mobile */}
       <div className=" mt-10">
@@ -135,23 +137,26 @@ const Home = () => {
               <CountdownMobile numarMinute={10} />
             </div>
             <img
-              className="absolute md:mt-10 scale-100 object-contain w-[95%] -translate-y-8"
+              className="absolute md:mt-10 object-contain w-[90%] -translate-y-8"
               src={LaptopMobileSVG}
               alt="Laptop"
             />
             <img
               src={Location}
-              className=" absolute z-10 -translate-y-40 scale-100"
+              className=" absolute z-10 -translate-y-40"
               alt="Location"
             />
+            <div className="  my-80"></div>
             <img
               src={Date}
-              className=" absolute z-20 translate-y-5 scale-100"
+              className=" absolute z-20 translate-y-10 "
               alt="Date"
             />
           </div>
         </div>
-        <div className="md:hidden mx-auto"></div>
+        <div className="md:hidden mx-auto  mt-12">
+          <ChallengesMobile />
+        </div>
       </div>
     </React.Fragment>
   );
