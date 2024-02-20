@@ -29,7 +29,7 @@ const Footer = () => {
                          onClick={() => window.open('https://www.linkedin.com/company/electronlse/', '_blank')}
                          src={Linkedin} alt="LinkedIn"/>
                 </div>
-                <h6 className="font-source-code-pro mt-8 text-left  text-xs">© Copyright s2024 | All Rights
+                <h6 className="font-source-code-pro mt-8 text-left  text-xs">© Copyrights 2024 | All Rights
                     Reserved</h6>
             </div>
         </>
