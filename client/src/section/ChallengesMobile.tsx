@@ -1,6 +1,5 @@
 import { Fragment, useState } from "react";
 
-import ChallengesText from "../assets/Challenges.svg";
 import Proba1 from "../assets/Proba1.svg";
 import Proba2 from "../assets/Proba2.svg";
 import Proba3 from "../assets/Proba3.svg";
@@ -36,7 +35,7 @@ export const ChallengesMobile = () => {
                 expandedDiv === 1 ? "mt-10" : "mt-5"
               }`}
               src={Proba1}
-              alt=""
+              alt="Proba1"
             />
 
             {expandedDiv === 1 ? (
@@ -50,15 +49,15 @@ export const ChallengesMobile = () => {
 
                 <div className="text-black mt-10 ml-5 ">
                   <div className="flex items-center mb-2">
-                    <img src={CheckIcon} alt="" className="mr-5" />
+                    <img src={CheckIcon} alt="CheckIcon" className="mr-5" />
                     <h3 className="mr-6">Super Resolution</h3>
                   </div>
                   <div className="flex items-center mb-2">
-                    <img src={CheckIcon} alt="" className="mr-5" />
+                    <img src={CheckIcon} alt="CheckIcon" className="mr-5" />
                     <h3 className="mr-6">Denoising</h3>
                   </div>
                   <div className="flex items-center mb-2">
-                    <img src={CheckIcon} alt="" className="mr-5" />
+                    <img src={CheckIcon} alt="CheckIcon" className="mr-5" />
                     <h3>Digital Forsenics</h3>
                   </div>
                 </div>
@@ -87,6 +86,7 @@ export const ChallengesMobile = () => {
               </button>
               <img
                 src={PremiiML}
+                about="Premii"
                 className="absolute flex justify-center -right-5 -z-10 scale-[220%]"
               />
             </div>
@@ -158,6 +158,7 @@ export const ChallengesMobile = () => {
               <img
                 src={PremiiCapture}
                 className="absolute flex justify-center -right-0 -z-10 scale-[220%]"
+                alt="PremiiCapture"
               />
             </div>
           </div>
@@ -222,84 +223,11 @@ export const ChallengesMobile = () => {
               </button>
               <img
                 src={PremiiConnect}
+                alt="PremiiConnect"
                 className="absolute flex justify-center right-5 -z-10 scale-[220%]"
               />
             </div>
           </div>
-
-          {/* <div
-            className={`w-[30%] relative  ${
-              expandedDiv === 3 ? "h-[80%]" : "h-[30%]"
-            } bg-white flex flex-col justify-center items-center rounded-xl transition-all duration-500`}
-          >
-            <img
-              className={`mb-4 scale-[110%] relative top-2 ${
-                expandedDiv === 3 ? "mt-10" : "mt-5"
-              }`}
-              src={Proba3}
-              alt=""
-            />
-
-            {expandedDiv === 3 ? (
-              <div className={` bg-white h-[80%] w-[100%] mt-6`}>
-                <h1 className="text-lg tracking-tighter text-left ml-5 mt-[10%]  text-black font-bold">
-                  Proba oferă participanților posibilitatea de a-și testa
-                  aptitudinile în calitate de viitori ingineri electroniști,
-                  familiarizându-se în același timp cu dispozitivele integrate
-                  și protocoalele de comunicare asociate.
-                </h1>
-
-                <div className="text-black mt-10 ml-5 ">
-                  <div className="flex items-center mb-2">
-                    <img src={CheckIcon} alt="" className="mr-5" />
-                    <h3 className="mr-6">Communication Protocols</h3>
-                  </div>
-                  <div className="flex items-center mb-2">
-                    <img src={CheckIcon} alt="" className="mr-5" />
-                    <h3 className="mr-6">Embedded Systems</h3>
-                  </div>
-                  <div className="flex items-center mb-2">
-                    <img src={CheckIcon} alt="" className="mr-5" />
-                    <h3>Reverse Engineering</h3>
-                  </div>
-                </div>
-
-    
-              </div>
-            ) : (
-              <div className="hidden h-0 w-0"></div>
-            )}
-
-            <div
-              className={`flex mt-5 -ml-10 ${
-                expandedDiv === 3 ? "mb-5" : "mb-5"
-              }`}
-            >
-              <button
-                onClick={() => extendBox(3)}
-                className="bg-[#EFEFF0] rounded-md text-black w-12 mr-2 flex items-center justify-center h-12"
-              >
-                <span>
-                  <span className="text-black">{"🛈"}</span>
-                </span>
-              </button>
-
-              <button className="bg-[#FFC947] rounded-md text-black w-60 flex items-center justify-center h-12">
-                <span className="mr-2 scale-100 font-bold">
-                  Inscrie-te aici
-                </span>
-                <span className="inline-block bg-black text-white rounded-full h-6 w-6 flex justify-center items-center ml-5">
-                  {" "}
-                  <Fragment></Fragment>
-                  <span className="text-white">{">"}</span>
-                </span>
-              </button>
-              <img
-                src={PremiiConnect}
-                className="absolute -z-10 scale-[200%]"
-              />
-            </div>
-          </div> */}
         </div>
       </div>
     </>
