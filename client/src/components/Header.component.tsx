@@ -2,6 +2,7 @@
 import Logo from "../assets/Logo.svg"
 
 const Header = () => {
+    // Probe Program, Parteneri, FAQ, CONTACT
 
     return (
         <div className="-mt-2 flex justify-center fixed w-4/5 left-1/2 transform -translate-x-1/2 z-50">
@@ -11,8 +12,6 @@ const Header = () => {
                 <div className="absolute right-0 mr-10 space-x-7 text-2xl text-white">
                     <a className="text-white hover:text-[#FFC947] hover:animate-pulse" href="#AboutUs">About Us</a>
                     <a className="text-white hover:text-[#FFC947] hover:animate-pulse"  href="#Challenges">Challenges</a>
-                    <a className="text-white hover:text-[#FFC947] hover:animate-pulse" href="#AboutUs" >Premii</a>
-                    <a className="text-white hover:text-[#FFC947] hover:animate-pulse" href="#AboutUs" >Juriu</a>
                     <a className="text-white hover:text-[#FFC947] hover:animate-pulse" href="#AboutUs" >Program</a>
                     <a className="text-white hover:text-[#FFC947] hover:animate-pulse"  href="#AboutUs">Parteneri</a>
                     <a className="text-white hover:text-[#FFC947] hover:animate-pulse" href="#AboutUs" >FAQ</a>

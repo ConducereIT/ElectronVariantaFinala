@@ -36,13 +36,13 @@ export const Challenges = () => {
                         {
                             expandedDiv === 1 ?
                                 <div className={` bg-white h-[80%] mt-4`}>
-                                    <h1 className="text-lg tracking-tighter text-left ml-3 mt-[10%]  text-black font-bold">Scopul
+                                    <h1 className="text-lg tracking-tighter text-left ml-5 mt-[10%]  text-black font-bold">Scopul
                                         acestei probe consta in dezvoltarea unui sistem specializat pentru imbunatatirea,
                                         restaurarea si analiza imaginilor in contextul securitatii, cu utilizarea
                                         tehnologiilor de inteligenta artificiala
                                     </h1>
 
-                                    <div className="text-black mt-10 ml-3 ">
+                                    <div className="text-black mt-10 ml-5 ">
                                         <div className="flex items-center mb-2">
                                             <img src={CheckIcon} alt="" className="mr-5"/>
                                             <h3 className="mr-6">Super Resolution</h3>
@@ -57,7 +57,7 @@ export const Challenges = () => {
                                         </div>
                                     </div>
 
-                                    {/*<div className="text-black flex text-lg ml-3 mt-10" >*/}
+                                    {/*<div className="text-black flex text-lg ml-5 mt-10" >*/}
                                     {/*    <img src={JuratiButton} alt=""/>*/}
                                     {/*    <h3 className="ml-5" >Vezi List Jurati</h3>*/}
                                     {/*</div>*/}
@@ -68,7 +68,7 @@ export const Challenges = () => {
                                 </div>
                         }
 
-                        <div className={`flex mt-5 -ml-5 ${expandedDiv === 1 ? "mb-5" : "mb-5"}`}>
+                        <div className={`flex mt-5 -ml-10 ${expandedDiv === 1 ? "mb-5" : "mb-5"}`}>
                             <button onClick={() => extendBox(1)}
                                     className="bg-[#EFEFF0] rounded-md text-black w-12 mr-2 flex items-center justify-center h-12">
                             <span>
@@ -94,14 +94,14 @@ export const Challenges = () => {
                         {
                             expandedDiv === 2 ?
                                 <div className={`bg-white h-[80%] w-[100%] mt-4`}>
-                                    <h1 className="text-lg tracking-tighter text-left ml-3 mt-[10%]  text-black font-bold">
+                                    <h1 className="text-lg tracking-tighter text-left ml-5 mt-[10%]  text-black font-bold">
                                         Proba se adresează celor orientați spre gândirea creativă și neconvențională,
                                         prin intermediul unor provocări structurate care acoperă diverse discipline.
                                         Scopul este testarea abilitatea de a deduce și aplica în mod practic
                                         informațiile teoretice acumulate
                                     </h1>
 
-                                    <div className="text-black mt-10 ml-3 ">
+                                    <div className="text-black mt-10 ml-5 ">
                                         <div className="flex items-center mb-2">
                                             <img src={CheckIcon} alt="" className="mr-5"/>
                                             <h3 className="mr-6">Audio-video</h3>
@@ -120,7 +120,7 @@ export const Challenges = () => {
                                         </div>
                                     </div>
 
-                                    {/*<div className="text-black flex text-lg ml-3 mt-10">*/}
+                                    {/*<div className="text-black flex text-lg ml-5 mt-10">*/}
                                     {/*    <img src={JuratiButton} alt=""/>*/}
                                     {/*    <h3 className="ml-5">Vezi List Jurati</h3>*/}
                                     {/*</div>*/}
@@ -131,7 +131,7 @@ export const Challenges = () => {
                                 </div>
                         }
 
-                        <div className={`flex mt-5 -ml-5 ${expandedDiv === 2 ? "mb-5" : "mb-5"}`}>
+                        <div className={`flex mt-5 -ml-10 ${expandedDiv === 2 ? "mb-5" : "mb-5"}`}>
                             <button onClick={() => extendBox(2)}
                                     className="bg-[#EFEFF0] rounded-md text-black w-12 mr-2 flex items-center justify-center h-12">
                             <span>
@@ -158,14 +158,14 @@ export const Challenges = () => {
                         {
                             expandedDiv === 3 ?
                                 <div className={` bg-white h-[80%] w-[100%] mt-6`}>
-                                    <h1 className="text-lg tracking-tighter text-left ml-3 mt-[10%]  text-black font-bold">Proba
+                                    <h1 className="text-lg tracking-tighter text-left ml-5 mt-[10%]  text-black font-bold">Proba
                                         oferă participanților posibilitatea de a-și testa aptitudinile în calitate de
                                         viitori ingineri electroniști, familiarizându-se în același timp cu
                                         dispozitivele
                                         integrate și protocoalele de comunicare asociate.
                                     </h1>
 
-                                    <div className="text-black mt-10 ml-3 ">
+                                    <div className="text-black mt-10 ml-5 ">
                                         <div className="flex items-center mb-2">
                                             <img src={CheckIcon} alt="" className="mr-5"/>
                                             <h3 className="mr-6">Communication Protocols</h3>
@@ -180,7 +180,7 @@ export const Challenges = () => {
                                         </div>
                                     </div>
 
-                                    {/*<div className="text-black flex text-lg ml-3 mt-10">*/}
+                                    {/*<div className="text-black flex text-lg ml-5 mt-10">*/}
                                     {/*    <img src={JuratiButton} alt=""/>*/}
                                     {/*    <h3 className="ml-5">Vezi List Jurati</h3>*/}
                                     {/*</div>*/}
@@ -191,7 +191,7 @@ export const Challenges = () => {
                                 </div>
                         }
 
-                        <div className={`flex mt-5 -ml-5 ${expandedDiv === 3 ? "mb-5" : "mb-5"}`}>
+                        <div className={`flex mt-5 -ml-10 ${expandedDiv === 3 ? "mb-5" : "mb-5"}`}>
                             <button onClick={() => extendBox(3)}
                                     className="bg-[#EFEFF0] rounded-md text-black w-12 mr-2 flex items-center justify-center h-12">
                             <span>
