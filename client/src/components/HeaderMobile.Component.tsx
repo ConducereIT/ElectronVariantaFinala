@@ -13,7 +13,7 @@ export default function HeaderMobile() {
   let content;
   if (nav) {
     content = (
-      <div className="fixed h-screen w-screen p-0 bg-black/95 grid place-items-center items-center z-20 px-10 py-20 top-0 left-0">
+      <div className="fixed h-screen w-screen p-0 bg-black/95 grid place-items-center items-center z-[98] px-10 py-20 top-0 left-0">
         <a href="#AboutUs" className="border-b-2 pb-2 w-1/2 border-[#ffc947]">
           <button onClick={handleNav}>
             <p className="text-white/90 text-frumos text-nowrap pr-10 ">
@@ -87,12 +87,12 @@ export default function HeaderMobile() {
             color="white"
           />
         )}
-        <div className="   fixed flex justify-between w-full top-0 left-0 px-5 py-4 bg-[#091931]">
+        <div className="   fixed flex justify-between z-[97] w-full top-0 left-0 px-5 py-4 bg-[#091931] ">
           <img src={Logo} alt="Logo" />
           {!nav && (
             <AiOutlineMenu
               onClick={handleNav}
-              className=" z-[99] md:hidden text-blue-950 outline-4 font-extrabold"
+              className=" z-[97] md:hidden text-blue-950 outline-4 font-extrabold"
               size={20}
               color="white"
             />
