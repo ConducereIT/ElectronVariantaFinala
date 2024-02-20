@@ -4,9 +4,10 @@ import Proba1 from "../assets/Proba1.svg";
 import Proba2 from "../assets/Proba2.svg";
 import Proba3 from "../assets/Proba3.svg";
 import CheckIcon from "../assets/Check icon.svg";
+// import JuratiButton from "../../assets/JuratiButton.svg"
 import PremiiML from "../assets/Premii-ML&AI.svg";
-import PremiiCapture from "../assets/Premii-Capture.svg";
-import PremiiConnect from "../assets/Premii-Connect.svg";
+import PremiiCapture from "../assets/PremiiCapture.svg";
+import PremiiConnect from "../assets/PremiiConnect.svg";
 
 export const ChallengesMobile = () => {
   const [expandedDiv, setExpandedDiv] = useState<number | null>(3);
@@ -157,7 +158,7 @@ export const ChallengesMobile = () => {
               </button>
               <img
                 src={PremiiCapture}
-                className="absolute flex justify-center -right-0 -z-10 scale-[220%]"
+                className="absolute flex justify-center -right-5 -z-10 scale-[220%]"
                 alt="PremiiCapture"
               />
             </div>
@@ -224,7 +225,7 @@ export const ChallengesMobile = () => {
               <img
                 src={PremiiConnect}
                 alt="PremiiConnect"
-                className="absolute flex justify-center right-5 -z-10 scale-[220%]"
+                className="absolute flex justify-center -right-5 -z-10 scale-[220%]"
               />
             </div>
           </div>
