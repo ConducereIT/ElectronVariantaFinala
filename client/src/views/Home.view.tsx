@@ -21,6 +21,7 @@ import HeaderMobile from "../components/HeaderMobile.Component.tsx";
 import Location from "../assets/Frame 12.svg";
 import Date from "../assets/Frame 13.svg";
 import { ChallengesMobile } from "../section/ChallengesMobile.tsx";
+import FooterMobile from "../section/FooterMobile.component.tsx";
 const Home = () => {
   return (
     <React.Fragment>
@@ -156,6 +157,9 @@ const Home = () => {
         </div>
         <div className="md:hidden mx-auto  mt-12">
           <ChallengesMobile />
+        </div>
+        <div className="md:hidden mx-auto ">
+          <FooterMobile />
         </div>
       </div>
     </React.Fragment>

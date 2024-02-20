@@ -164,7 +164,7 @@ export const ChallengesMobile = () => {
             </div>
           </div>
           <div
-            className={`relative mt-28 ${
+            className={`relative my-28 ${
               expandedDiv === 3 ? "h-[50%]" : "h-[30%]"
             } bg-white flex flex-col justify-center items-center rounded-xl transition-all duration-500`}
           >
