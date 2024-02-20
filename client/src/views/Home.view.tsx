@@ -17,6 +17,7 @@ import { Challenges } from "../section/Challenges.tsx";
 import Footer from "../section/Footer.component.tsx";
 import MainTextMobile from "../components/MainTextMobile.component.tsx";
 import { CountdownMobile } from "../components/CountdownMobile.component.tsx";
+import HeaderMobile from "../components/HeaderMobile.Component.tsx";
 
 const Home = () => {
   return (
@@ -82,7 +83,7 @@ const Home = () => {
         <Footer />
       </div>
       {/* Mobile */}
-      <div className="">
+      <div className=" mt-10">
         <div className="md:hidden object-contain">
           <img
             className="absolute scale-100 -top-20 -left-40 opacity-95 rounded-full -z-10"
@@ -100,40 +101,43 @@ const Home = () => {
             alt=""
           />
         </div>
-      </div>
-      <div className="md:hidden " id="AboutUs">
-        <MainTextMobile />
-        <a
-          href="https://cyber-edu.co/register?token=40a121ba7d8ac969b5d08e041632f81ad4a599d11f054d4d1812ac94f480c4e34b4a9548de58bdf3"
-          target="_blank"
-          className="flex justify-center"
-        >
-          <button className="bg-[#FFC947] rounded-lg text-frumos my-10 p-6 text-black w-60 flex justify-center items-center absolute">
-            <span className="mr-2 scale-125 absolute left-10 font-bold">
-              Inscrie-te aici
-            </span>
-            <div className="absolute right-2.5">
-              <span className="  bg-black text-white rounded-full h-6 w-6 flex justify-center items-center">
-                <span className="text-white  ">{">"}</span>
-              </span>
-            </div>
-          </button>
-        </a>
-      </div>
-
-      <div className="md:hidden mx-auto">
-        <div className="h-full w-full mt-60 flex justify-center ">
-          <div className="absolute z-10  ">
-            <CountdownMobile numarMinute={10} />
-          </div>
-          <img
-            className="md:mt-10 scale-125 object-contain w-[95%]"
-            src={LaptopMobileSVG}
-            alt=""
-          />
+        <div className="md:hidden">
+          <HeaderMobile />
         </div>
+        <div className="md:hidden" id="AboutUs">
+          <MainTextMobile />
+          <a
+            href="https://cyber-edu.co/register?token=40a121ba7d8ac969b5d08e041632f81ad4a599d11f054d4d1812ac94f480c4e34b4a9548de58bdf3"
+            target="_blank"
+            className="flex justify-center"
+          >
+            <button className="bg-[#FFC947] rounded-lg text-frumos my-10 p-6 text-black w-60 flex justify-center items-center absolute">
+              <span className="mr-2 scale-125 absolute pr-4 font-bold">
+                Inscrie-te aici
+              </span>
+              <div className="absolute right-2.5">
+                <span className="  bg-black text-white rounded-full h-6 w-6 flex justify-center items-center">
+                  <span className="text-white  ">{">"}</span>
+                </span>
+              </div>
+            </button>
+          </a>
+        </div>
+
+        <div className="md:hidden mx-auto">
+          <div className="h-full w-full mt-60 flex justify-center ">
+            <div className="absolute z-10  ">
+              <CountdownMobile numarMinute={10} />
+            </div>
+            <img
+              className="md:mt-10 scale-125 object-contain w-[95%]"
+              src={LaptopMobileSVG}
+              alt=""
+            />
+          </div>
+        </div>
+        <div className="md:hidden mx-auto"></div>
       </div>
-      <div className="md:hidden mx-auto"></div>
     </React.Fragment>
   );
 };

@@ -8,6 +8,10 @@
   font-family: "Source Code Pro";
 }
 
+.decoration-off{
+  text-decoration: none;
+}
+
 :root {
   overflow-x: hidden;
   background-color: #091931;
@@ -54,7 +58,6 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
 }
