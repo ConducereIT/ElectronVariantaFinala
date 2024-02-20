@@ -9,7 +9,9 @@ import Proba2 from "../assets/Proba2.svg"
 import Proba3 from "../assets/Proba3.svg"
 import CheckIcon from "../assets/Check icon.svg"
 // import JuratiButton from "../../assets/JuratiButton.svg"
-import Premii from "../assets/Premii.svg"
+import PremiiML from "../assets/Premii-ML&AI.svg"
+import PremiiCapture from "../assets/Premii-Capture.svg"
+import PremiiConnect from "../assets/Premii-Connect.svg"
 
 export const Challenges = () => {
 
@@ -84,7 +86,7 @@ export const Challenges = () => {
                                 <span className="text-white">{">"}</span>
                             </span>
                             </button>
-                            <img src={Premii} className="absolute -z-10 scale-[200%]"/>
+                            <img src={PremiiML} className="absolute -z-10 scale-[200%]"/>
                         </div>
                     </div>
                     <div className={`w-[30%] relative ${expandedDiv === 2 ? 'h-[80%]' : 'h-[30%]'} bg-white flex flex-col justify-center items-center rounded-xl transition-all duration-500`}>
@@ -147,7 +149,7 @@ export const Challenges = () => {
                                 <span className="text-white">{">"}</span>
                             </span>
                             </button>
-                            <img src={Premii} className="absolute -z-10 scale-[200%]"/>
+                            <img src={PremiiCapture} className="absolute -z-10 scale-[200%]"/>
                         </div>
                     </div>
 
@@ -207,7 +209,7 @@ export const Challenges = () => {
                                 <span className="text-white">{">"}</span>
                             </span>
                             </button>
-                            <img src={Premii} className="absolute -z-10 scale-[200%]"/>
+                            <img src={PremiiConnect} className="absolute -z-10 scale-[200%]"/>
                         </div>
                     </div>
                 </div>

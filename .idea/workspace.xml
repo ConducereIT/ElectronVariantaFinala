@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f12428e0-a60f-437b-91cc-3ac0504e579d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/Premii-Capture.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/Premii-Connect.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/Premii-ML&amp;AI.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Header.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Header.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/Premii.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/section/Challenges.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/section/Challenges.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/section/Footer.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/section/Footer.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/views/Home.view.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/Home.view.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
