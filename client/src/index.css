@@ -1,11 +1,19 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+.text-frumos{
+  font-family: "Source Code Pro";
+}
+
+.decoration-off{
+  text-decoration: none;
+}
 
 :root {
+  overflow-x: hidden;
   background-color: #091931;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -50,7 +58,6 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
 }

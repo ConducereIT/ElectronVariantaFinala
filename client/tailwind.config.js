@@ -5,7 +5,22 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'source-code-pro': ['Source Code Pro', 'sans-serif'],
+      },
+      fontWeight: {
+        'source-code-pro': {
+          normal: '400',
+          bold: '700',
+        },
+      },
+      fontStyle: {
+        'source-code-pro': {
+          italic: 'italic',
+        },
+      },
+    },
   },
   plugins: [],
 }

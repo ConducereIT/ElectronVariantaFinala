@@ -13,6 +13,8 @@ dist-ssr
 *.local
 
 ../.idea
+../.idea
+.idea
 
 ./node_modules
 ./dist
