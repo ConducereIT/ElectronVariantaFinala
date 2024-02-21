@@ -4,17 +4,27 @@ import { IoMdClose } from "react-icons/io";
 import Logo from "../assets/Logo2.svg";
 import { MouseEvent } from "react";
 
-export default function HeaderMobile() {
+interface HeaderProps {
+    setOpen: (isOpen: boolean) => void;
+}
+ const HeaderMobile : React.FC<HeaderProps> = ({setOpen}) => {
   const [nav, setNav] = useState(false);
   const handleNav = (e: MouseEvent) => {
     e.preventDefault();
     setNav(!nav);
   };
-  let content;
+
+     const handleLinkClick = () => {
+         setOpen(true);
+     };
+
+
+
+     let content;
   if (nav) {
     content = (
       <div className="fixed h-screen w-screen p-0 bg-black/95 grid place-items-center items-center z-[98] px-10 py-20 top-0 left-0">
-        <a href="#AboutUs" className="border-b-2 pb-2 w-1/2 border-[#ffc947]">
+        <a onClick={handleLinkClick} href="#AboutUs" className="border-b-2 pb-2 w-1/2 border-[#ffc947]">
           <button onClick={handleNav}>
             <p className="text-white/90 text-frumos text-nowrap pr-10 ">
               About Us
@@ -24,6 +34,7 @@ export default function HeaderMobile() {
         <a
           href="#Challenges"
           className="border-b-2 pb-2 w-1/2 border-[#ffc947]"
+          onClick={handleLinkClick}
         >
           <button onClick={handleNav}>
             <p className="text-white/90 text-frumos text-nowrap pr-10 text-left ">
@@ -31,42 +42,28 @@ export default function HeaderMobile() {
             </p>
           </button>
         </a>
-        <a href="#Premii" className="border-b-2 pb-2 w-1/2 border-[#ffc947]">
-          <button onClick={handleNav}>
-            <p className="text-white/90 text-frumos text-nowrap pr-10 ">
-              Premii
-            </p>
-          </button>
-        </a>
-        <a href="#Juriu" className="border-b-2 pb-2 w-1/2 border-[#ffc947]">
-          <button onClick={handleNav}>
-            <p className="text-white/90 text-frumos text-nowrap pr-10 ">
-              Juriu
-            </p>
-          </button>
-        </a>
-        <a href="#Program" className="border-b-2 pb-2 w-1/2 border-[#ffc947]">
+        <a onClick={handleLinkClick} href="#Program" className="border-b-2 pb-2 w-1/2 border-[#ffc947]">
           <button onClick={handleNav}>
             <p className="text-white/90 text-frumos text-nowrap pr-10 text-left">
               Program
             </p>
           </button>
         </a>
-        <a href="#Parteneri" className="border-b-2 pb-2 w-1/2 border-[#ffc947]">
+        <a onClick={handleLinkClick} href="#Parteneri" className="border-b-2 pb-2 w-1/2 border-[#ffc947]">
           <button onClick={handleNav}>
             <p className="text-white/90 text-frumos text-nowrap pr-10 text-left">
               Parteneri
             </p>
           </button>
         </a>
-        <a href="#FAQ" className="border-b-2 pb-2 w-1/2 border-[#ffc947]">
+        <a onClick={handleLinkClick} href="#FAQ" className="border-b-2 pb-2 w-1/2 border-[#ffc947]">
           <button onClick={handleNav}>
             <p className="text-white/90 text-frumos text-nowrap pr-10 text-left">
               FAQ
             </p>
           </button>
         </a>
-        <a href="#Contact" className="pb-2 w-1/2 border-[#ffc947]">
+        <a onClick={handleLinkClick} href="#Contact" className="pb-2 w-1/2 border-[#ffc947]">
           <button onClick={handleNav}>
             <p className="text-white/90 text-frumos text-nowrap pr-10 ">
               Contact
@@ -76,6 +73,7 @@ export default function HeaderMobile() {
       </div>
     );
   }
+
   return (
     <>
       <div>
@@ -103,3 +101,5 @@ export default function HeaderMobile() {
     </>
   );
 }
+
+export default HeaderMobile;

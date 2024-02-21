@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 
 import LaptopSVG from "../assets/laptop.svg";
 import { Countdow } from "../components/Countdown.component.tsx";
@@ -13,7 +13,6 @@ import BlurAlbastru3 from "../assets/BLurAlbastru3.svg";
 import LaptopMobileSVG from "../assets/LaptopMobile.svg";
 // Sections
 import { Challenges } from "../section/Challenges.tsx";
-// import {JuriuSection} from "../section/Juriu.component.tsx";
 import Footer from "../section/Footer.component.tsx";
 import MainTextMobile from "../components/MainTextMobile.component.tsx";
 import { CountdownMobile } from "../components/CountdownMobile.component.tsx";
@@ -27,11 +26,13 @@ import NewCarousel from "../components/NewCarousel.component.tsx";
 import Faq from "../components/Faq.component.tsx";
 
 const Home = () => {
+  const [open, setOpen] = useState(false);
+
   return (
     <React.Fragment>
       {/* Desktop */}
       <div className="hidden md:block">
-        <Header />
+        <Header setOpen={setOpen}/>
       </div>
       <div className="hidden md:block">
         <img
@@ -86,7 +87,7 @@ const Home = () => {
         <Challenges />
       </div>
 
-      <ControlledPopup />
+      <ControlledPopup open={open} setOpen={setOpen}/>
 
       <div className=" hidden md:block mb-16">
         <NewCarousel />
@@ -118,7 +119,7 @@ const Home = () => {
           />
         </div>
         <div className="md:hidden">
-          <HeaderMobile />
+          <HeaderMobile  setOpen={setOpen} />
         </div>
         <div className="md:hidden" id="AboutUs">
           <MainTextMobile />

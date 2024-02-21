@@ -1,6 +1,6 @@
 const UnderWorksSvg = () => {
     return (
-        <div className="wheel-and-hamster"
+        <div className="wheel-and-hamster mt-20"
             role="img">
             <div className="wheel"></div>
             <div className="hamster">
