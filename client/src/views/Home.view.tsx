@@ -22,6 +22,7 @@ import Location from "../assets/Frame 12.svg";
 import Date from "../assets/Frame 13.svg";
 import { ChallengesMobile } from "../section/ChallengesMobile.tsx";
 import FooterMobile from "../section/FooterMobile.component.tsx";
+import NewCarousel from "../components/NewCarousel.component.tsx";
 const Home = () => {
   return (
     <React.Fragment>
@@ -82,11 +83,14 @@ const Home = () => {
         <Challenges />
       </div>
 
-      <div id="Juriu" className="hidden md:block mt-3 h-48 mt-5  w-auto">
-        {/*<JuriuSection />*/}
+      {/* <div id="Juriu" className="hidden md:block mt-3 h-48 mt-5  w-auto">
+        <JuriuSection />
+      </div> */}
+      <div className=" hidden md:block mb-16">
+        <NewCarousel />
       </div>
 
-      <div className="hidden md:block mt-8 w-[100%] bg-[#000000] absolute h-80  left-0 mt-20">
+      <div className="hidden md:block  w-[100%] bg-[#000000] absolute h-80  left-0 mt-20">
         <Footer />
       </div>
 
@@ -157,6 +161,9 @@ const Home = () => {
         </div>
         <div className="md:hidden mx-auto  mt-12">
           <ChallengesMobile />
+        </div>
+        <div className="md:hidden mx-auto">
+          <NewCarousel />
         </div>
         <div className="md:hidden mx-auto ">
           <FooterMobile />
