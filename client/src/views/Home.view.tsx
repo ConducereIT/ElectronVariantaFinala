@@ -22,7 +22,10 @@ import Location from "../assets/Frame 12.svg";
 import Date from "../assets/Frame 13.svg";
 import { ChallengesMobile } from "../section/ChallengesMobile.tsx";
 import FooterMobile from "../section/FooterMobile.component.tsx";
+import ControlledPopup from "../components/Popup.component.tsx";
 import NewCarousel from "../components/NewCarousel.component.tsx";
+
+
 const Home = () => {
   return (
     <React.Fragment>
@@ -83,6 +86,9 @@ const Home = () => {
         <Challenges />
       </div>
 
+      <div id="Juriu" className="hidden md:block mt-3 h-96 mt-5  w-auto">
+        {/*<JuriuSection />*/}
+        <ControlledPopup/>
       {/* <div id="Juriu" className="hidden md:block mt-3 h-48 mt-5  w-auto">
         <JuriuSection />
       </div> */}
