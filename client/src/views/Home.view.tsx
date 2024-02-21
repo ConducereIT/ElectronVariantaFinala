@@ -24,6 +24,7 @@ import { ChallengesMobile } from "../section/ChallengesMobile.tsx";
 import FooterMobile from "../section/FooterMobile.component.tsx";
 import ControlledPopup from "../components/Popup.component.tsx";
 import NewCarousel from "../components/NewCarousel.component.tsx";
+import Faq from "../components/Faq.component.tsx";
 
 const Home = () => {
   return (
@@ -90,7 +91,9 @@ const Home = () => {
       <div className=" hidden md:block mb-16">
         <NewCarousel />
       </div>
-
+      <div className="hidden md:block">
+        <Faq />
+      </div>
       <div className="hidden md:block  w-[100%] bg-[#000000] absolute h-80  left-0 mt-20">
         <Footer />
       </div>
@@ -165,6 +168,9 @@ const Home = () => {
         </div>
         <div className="md:hidden mx-auto">
           <NewCarousel />
+        </div>
+        <div className="md:hidden mx-auto">
+          <Faq />
         </div>
         <div className="md:hidden mx-auto ">
           <FooterMobile />
