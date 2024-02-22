@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@genezio-sdk/test_eu-central-1": "^1.0.0-prod",
+    "@genezio-sdk/test_eu-central-1": "^1.0.0",
     "@genezio/vite-plugin-genezio": "^1.0.4",
     "@types/react-bootstrap": "^0.32.35",
     "localforage": "^1.10.0",
