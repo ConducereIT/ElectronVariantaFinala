@@ -2,39 +2,36 @@ import { useState } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
 import { IoMdClose } from "react-icons/io";
 import Logo from "../assets/Logo2.svg";
-import { MouseEvent } from "react";
 
 interface HeaderProps {
-    setOpen: (isOpen: boolean) => void;
+  setOpen: (isOpen: boolean) => void;
 }
- const HeaderMobile : React.FC<HeaderProps> = ({setOpen}) => {
+const HeaderMobile: React.FC<HeaderProps> = ({ setOpen }) => {
   const [nav, setNav] = useState(false);
-  const handleNav = (e: MouseEvent) => {
-    e.preventDefault();
+  const handleNav = () => {
     setNav(!nav);
   };
 
-     const handleLinkClick = () => {
-         setOpen(true);
-     };
+  const handleLinkClick = () => {
+    setOpen(true);
+  };
 
-
-
-     let content;
+  let content;
   if (nav) {
     content = (
       <div className="fixed h-screen w-screen p-0 bg-black/95 grid place-items-center items-center z-[98] px-10 py-20 top-0 left-0">
-        <a onClick={handleLinkClick} href="#AboutUs" className="border-b-2 pb-2 w-1/2 border-[#ffc947]">
-          <button onClick={handleNav}>
-            <p className="text-white/90 text-frumos text-nowrap pr-10 ">
-              About Us
-            </p>
-          </button>
+        <a href="#AboutUsM" className="border-b-2 pb-2 w-1/2 border-[#ffc947]">
+          <a href="#AboutUsM">
+            <button onClick={handleNav}>
+              <p className="text-white/90 text-frumos text-nowrap pr-10 ">
+                About Us
+              </p>
+            </button>
+          </a>
         </a>
         <a
-          href="#Challenges"
+          href="#ChallengesM"
           className="border-b-2 pb-2 w-1/2 border-[#ffc947]"
-          onClick={handleLinkClick}
         >
           <button onClick={handleNav}>
             <p className="text-white/90 text-frumos text-nowrap pr-10 text-left ">
@@ -42,28 +39,36 @@ interface HeaderProps {
             </p>
           </button>
         </a>
-        <a onClick={handleLinkClick} href="#Program" className="border-b-2 pb-2 w-1/2 border-[#ffc947]">
+        <a
+          onClick={handleLinkClick}
+          href="#Program"
+          className="border-b-2 pb-2 w-1/2 border-[#ffc947]"
+        >
           <button onClick={handleNav}>
             <p className="text-white/90 text-frumos text-nowrap pr-10 text-left">
               Program
             </p>
           </button>
         </a>
-        <a onClick={handleLinkClick} href="#Parteneri" className="border-b-2 pb-2 w-1/2 border-[#ffc947]">
-          <button onClick={handleNav}>
-            <p className="text-white/90 text-frumos text-nowrap pr-10 text-left">
-              Parteneri
-            </p>
-          </button>
-        </a>
-        <a onClick={handleLinkClick} href="#FAQ" className="border-b-2 pb-2 w-1/2 border-[#ffc947]">
+
+        <a href="#FAQM" className="border-b-2 pb-2 w-1/2 border-[#ffc947]">
           <button onClick={handleNav}>
             <p className="text-white/90 text-frumos text-nowrap pr-10 text-left">
               FAQ
             </p>
           </button>
         </a>
-        <a onClick={handleLinkClick} href="#Contact" className="pb-2 w-1/2 border-[#ffc947]">
+        <a
+          href="#ParteneriM"
+          className="border-b-2 pb-2 w-1/2 border-[#ffc947]"
+        >
+          <button onClick={handleNav}>
+            <p className="text-white/90 text-frumos text-nowrap pr-10 text-left">
+              Parteneri
+            </p>
+          </button>
+        </a>
+        <a href="#ContactM" className="pb-2 w-1/2 border-[#ffc947]">
           <button onClick={handleNav}>
             <p className="text-white/90 text-frumos text-nowrap pr-10 ">
               Contact
@@ -100,6 +105,6 @@ interface HeaderProps {
       </div>
     </>
   );
-}
+};
 
 export default HeaderMobile;
