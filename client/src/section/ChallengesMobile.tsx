@@ -27,7 +27,7 @@ export const ChallengesMobile = () => {
       <div className=" mb-20 font-source-code-pro ">
         <div className="flex flex-col justify-center ">
           <div
-            className={`relative ${
+            className={`relative mb-10 ${
               expandedDiv === 1 ? "h-[50%]" : "h-[30%]"
             } bg-white flex flex-col justify-center items-center rounded-xl transition-all duration-500`}
           >
@@ -93,7 +93,7 @@ export const ChallengesMobile = () => {
             </div>
           </div>
           <div
-            className={`relative mt-28 ${
+            className={`relative mt-28 mb-10 ${
               expandedDiv === 2 ? "h-[50%]" : "h-[30%]"
             } bg-white flex flex-col justify-center items-center rounded-xl transition-all duration-500`}
           >
@@ -164,7 +164,7 @@ export const ChallengesMobile = () => {
             </div>
           </div>
           <div
-            className={`relative my-28 ${
+            className={`relative my-28 mb-10 ${
               expandedDiv === 3 ? "h-[50%]" : "h-[30%]"
             } bg-white flex flex-col justify-center items-center rounded-xl transition-all duration-500`}
           >
