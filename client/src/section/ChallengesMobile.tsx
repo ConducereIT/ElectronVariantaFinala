@@ -8,6 +8,7 @@ import CheckIcon from "../assets/Check icon.svg";
 import PremiiML from "../assets/PremiiML.svg";
 import PremiiCapture from "../assets/PremiiCTF.svg";
 import PremiiConnect from "../assets/PremiiConnectNew.svg";
+import { IoMdInformationCircleOutline } from "react-icons/io";
 
 export const ChallengesMobile = () => {
   const [expandedDiv, setExpandedDiv] = useState<number | null>(3);
@@ -73,7 +74,7 @@ export const ChallengesMobile = () => {
                 className="bg-[#EFEFF0] rounded-md text-black w-12 mr-2 flex items-center justify-center h-12"
               >
                 <span>
-                  <span className="text-black">{"🛈"}</span>
+                  <IoMdInformationCircleOutline />
                 </span>
               </button>
 
@@ -145,7 +146,7 @@ export const ChallengesMobile = () => {
                 className="bg-[#EFEFF0] rounded-md text-black w-12 mr-2 flex items-center justify-center h-12"
               >
                 <span>
-                  <span className="text-black">{"🛈"}</span>
+                  <IoMdInformationCircleOutline />
                 </span>
               </button>
 
@@ -211,7 +212,7 @@ export const ChallengesMobile = () => {
                 className="bg-[#EFEFF0] rounded-md text-black w-12 mr-2 flex items-center justify-center h-12"
               >
                 <span>
-                  <span className="text-black">{"🛈"}</span>
+                  <IoMdInformationCircleOutline />
                 </span>
               </button>
 
