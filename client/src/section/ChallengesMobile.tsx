@@ -5,9 +5,9 @@ import Proba2 from "../assets/Proba2.svg";
 import Proba3 from "../assets/Proba3.svg";
 import CheckIcon from "../assets/Check icon.svg";
 // import JuratiButton from "../../assets/JuratiButton.svg"
-import PremiiML from "../assets/Premii-ML&AI.svg";
-import PremiiCapture from "../assets/PremiiCapture.svg";
-import PremiiConnect from "../assets/PremiiConnect.svg";
+import PremiiML from "../assets/PremiiML.svg";
+import PremiiCapture from "../assets/PremiiCTF.svg";
+import PremiiConnect from "../assets/PremiiConnectNew.svg";
 
 export const ChallengesMobile = () => {
   const [expandedDiv, setExpandedDiv] = useState<number | null>(3);
@@ -24,10 +24,10 @@ export const ChallengesMobile = () => {
       <p className="text-4xl font-bold mb-10 text-white text-frumos -mt-32">
         Challenges
       </p>
-      <div className=" mb-20 font-source-code-pro ">
+      <div className=" mb-20 font-source-code-pro select-none ">
         <div className="flex flex-col justify-center ">
           <div
-            className={`relative mb-10 ${
+            className={`relative mb-20 ${
               expandedDiv === 1 ? "h-[50%]" : "h-[30%]"
             } bg-white flex flex-col justify-center items-center rounded-xl transition-all duration-500`}
           >
@@ -67,7 +67,7 @@ export const ChallengesMobile = () => {
               <div className="hidden h-0 w-0"></div>
             )}
 
-            <div className={`flex mt-5 ${expandedDiv === 1 ? "mb-5" : "mb-5"}`}>
+            <div className={`flex my-5 ${expandedDiv === 1 ? "mb-5" : "mb-5"}`}>
               <button
                 onClick={() => extendBox(1)}
                 className="bg-[#EFEFF0] rounded-md text-black w-12 mr-2 flex items-center justify-center h-12"
@@ -88,12 +88,13 @@ export const ChallengesMobile = () => {
               <img
                 src={PremiiML}
                 about="Premii"
-                className="absolute flex justify-center -right-5 -z-10 scale-[220%]"
+                className="absolute flex justify-center -right-0 -mt-24 scale-[130%] -z-10 "
               />
             </div>
           </div>
+
           <div
-            className={`relative mt-28 mb-10 ${
+            className={`relative mt-28 mb-20 ${
               expandedDiv === 2 ? "h-[50%]" : "h-[30%]"
             } bg-white flex flex-col justify-center items-center rounded-xl transition-all duration-500`}
           >
@@ -138,7 +139,7 @@ export const ChallengesMobile = () => {
               <div className="hidden h-0 w-0"></div>
             )}
 
-            <div className={`flex mt-5 ${expandedDiv === 2 ? "mb-5" : "mb-5"}`}>
+            <div className={`flex my-5 ${expandedDiv === 2 ? "mb-5" : "mb-5"}`}>
               <button
                 onClick={() => extendBox(2)}
                 className="bg-[#EFEFF0] rounded-md text-black w-12 mr-2 flex items-center justify-center h-12"
@@ -158,13 +159,13 @@ export const ChallengesMobile = () => {
               </button>
               <img
                 src={PremiiCapture}
-                className="absolute flex justify-center -right-5 -z-10 scale-[220%]"
-                alt="PremiiCapture"
+                about="Premii"
+                className="absolute flex justify-center -right-0 -mt-24 scale-[130%] -z-10 "
               />
             </div>
           </div>
           <div
-            className={`relative my-28 mb-10 ${
+            className={`relative my-28 mb-20 ${
               expandedDiv === 3 ? "h-[50%]" : "h-[30%]"
             } bg-white flex flex-col justify-center items-center rounded-xl transition-all duration-500`}
           >
@@ -224,8 +225,8 @@ export const ChallengesMobile = () => {
               </button>
               <img
                 src={PremiiConnect}
-                alt="PremiiConnect"
-                className="absolute flex justify-center -right-5 -z-10 scale-[220%]"
+                about="Premii"
+                className="absolute flex justify-center right-0 -mt-24 scale-[130%] -z-10 "
               />
             </div>
           </div>
