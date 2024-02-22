@@ -84,7 +84,7 @@ const Home = () => {
           <img className="md:mt-10 scale-150" src={LaptopSVG} alt="" />
         </div>
       </div>
-      <div id="" className="hidden md:block mt-96 h-auto w-auto">
+      <div id="Challenges" className="hidden md:block mt-96 h-auto w-auto">
         <Challenges />
       </div>
 
@@ -93,18 +93,21 @@ const Home = () => {
       <div className=" hidden md:block mb-16">
         <NewCarousel />
       </div>
-      <div className="hidden md:block">
+      <div id="FAQ" className="hidden md:block">
         <Faq />
       </div>
-      <div className="hidden md:block">
+      <div id="Parteneri" className="hidden md:block">
         <Sponsors />
       </div>
-      <div className="hidden md:block  w-[100%] bg-[#000000] absolute h-80  left-0 mt-20">
+      <div
+        id="Contact"
+        className="hidden md:block  w-[100%] bg-[#000000] absolute h-80  left-0 mt-20"
+      >
         <Footer />
       </div>
 
       {/* Mobile */}
-      <div className=" mt-10">
+      <div className=" mt-10" id="AboutUsM">
         <div className="md:hidden object-contain">
           <img
             className="absolute scale-100 -top-20 -left-40 opacity-95 rounded-full -z-10"
@@ -125,7 +128,7 @@ const Home = () => {
         <div className="md:hidden">
           <HeaderMobile setOpen={setOpen} />
         </div>
-        <div className="md:hidden" id="AboutUs">
+        <div className="md:hidden">
           <MainTextMobile />
           <a
             href="https://cyber-edu.co/register?token=40a121ba7d8ac969b5d08e041632f81ad4a599d11f054d4d1812ac94f480c4e34b4a9548de58bdf3"
@@ -168,19 +171,19 @@ const Home = () => {
             />
           </div>
         </div>
-        <div className="md:hidden mx-auto  mt-12">
+        <div id="ChallengesM" className="md:hidden mx-auto  mt-12">
           <ChallengesMobile />
         </div>
         <div className="md:hidden mx-auto">
           <NewCarousel />
         </div>
-        <div className="md:hidden mx-auto">
+        <div id="FAQM" className="md:hidden mx-auto">
           <Faq />
         </div>
-        <div className="md:hidden mx-auto">
+        <div id="ParteneriM" className="md:hidden mx-auto">
           <Sponsors />
         </div>
-        <div className="md:hidden mx-auto ">
+        <div id="ContactM" className="md:hidden mx-auto ">
           <FooterMobile />
         </div>
       </div>
