@@ -22,8 +22,8 @@ import Date from "../assets/Frame 13.svg";
 import { ChallengesMobile } from "../section/ChallengesMobile.tsx";
 import FooterMobile from "../section/FooterMobile.component.tsx";
 import ControlledPopup from "../components/Popup.component.tsx";
-import NewCarousel from "../components/NewCarousel.component.tsx";
-import Faq from "../components/Faq.component.tsx";
+// import NewCarousel from "../components/NewCarousel.component.tsx";
+// import Faq from "../components/Faq.component.tsx";
 import Sponsors from "../components/Sponsors.component.tsx";
 
 const Home = () => {
@@ -90,12 +90,12 @@ const Home = () => {
 
       <ControlledPopup open={open} setOpen={setOpen} />
 
-      <div className=" hidden lg:block mb-16">
+      {/* <div className=" hidden lg:block mb-16">
         <NewCarousel />
-      </div>
-      <div id="FAQ" className="hidden lg:block">
+      </div> */}
+      {/* <div id="FAQ" className="hidden lg:block">
         <Faq />
-      </div>
+      </div> */}
       <div id="Parteneri" className="hidden lg:block">
         <Sponsors />
       </div>
@@ -174,12 +174,12 @@ const Home = () => {
         <div id="ChallengesM" className="lg:hidden mx-auto  mt-12">
           <ChallengesMobile />
         </div>
-        <div className="lg:hidden mx-auto">
+        {/* <div className="lg:hidden mx-auto">
           <NewCarousel />
-        </div>
-        <div id="FAQM" className="lg:hidden mx-auto">
+        </div> */}
+        {/* <div id="FAQM" className="lg:hidden mx-auto">
           <Faq />
-        </div>
+        </div> */}
         <div id="ParteneriM" className="lg:hidden mx-auto">
           <Sponsors />
         </div>

@@ -24,7 +24,7 @@ const HeaderMobile: React.FC<HeaderProps> = ({ setOpen }) => {
           <a href="#AboutUsM">
             <button onClick={handleNav}>
               <p className="text-white/90 text-frumos text-nowrap pr-10 ">
-                About Us
+                Despre noi
               </p>
             </button>
           </a>
@@ -35,7 +35,7 @@ const HeaderMobile: React.FC<HeaderProps> = ({ setOpen }) => {
         >
           <button onClick={handleNav}>
             <p className="text-white/90 text-frumos text-nowrap pr-10 text-left ">
-              Challenges
+              Probe
             </p>
           </button>
         </a>
@@ -51,7 +51,11 @@ const HeaderMobile: React.FC<HeaderProps> = ({ setOpen }) => {
           </button>
         </a>
 
-        <a href="#FAQM" className="border-b-2 pb-2 w-1/2 border-[#ffc947]">
+        <a
+          href="#FAQM"
+          className="border-b-2 pb-2 w-1/2 border-[#ffc947] "
+          onClick={handleLinkClick}
+        >
           <button onClick={handleNav}>
             <p className="text-white/90 text-frumos text-nowrap pr-10 text-left">
               FAQ
