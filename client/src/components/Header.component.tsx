@@ -19,13 +19,13 @@ const Header: React.FC<HeaderProps> = ({ setOpen }) => {
             className="text-white hover:text-[#FFC947] hover:animate-pulse"
             href="#AboutUs"
           >
-            About Us
+            Despre noi
           </a>
           <a
             className="text-white hover:text-[#FFC947] hover:animate-pulse"
             href="#Challenges"
           >
-            Challenges
+            Probe
           </a>
           <a
             className="text-white hover:text-[#FFC947] hover:animate-pulse"
@@ -38,6 +38,7 @@ const Header: React.FC<HeaderProps> = ({ setOpen }) => {
           <a
             className="text-white hover:text-[#FFC947] hover:animate-pulse"
             href="#FAQ"
+            onClick={handleLinkClick}
           >
             FAQ
           </a>

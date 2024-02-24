@@ -6,12 +6,12 @@ import Proba3 from "../assets/Proba3.svg";
 import CheckIcon from "../assets/Check icon.svg";
 // import JuratiButton from "../../assets/JuratiButton.svg"
 import PremiiML from "../assets/PremiiML.svg";
-import PremiiCapture from "../assets/PremiiCTF.svg";
-import PremiiConnect from "../assets/PremiiConnectNew.svg";
+import PremiiCapture from "../assets/PrizeCTF.svg";
+import PremiiConnect from "../assets/PrizeCon.svg";
 import { IoMdInformationCircleOutline } from "react-icons/io";
 
 export const ChallengesMobile = () => {
-  const [expandedDiv, setExpandedDiv] = useState<number | null>(3);
+  const [expandedDiv, setExpandedDiv] = useState<number | null>(0);
   const extendBox = (index: number) => {
     if (index === expandedDiv) {
       setExpandedDiv(null);
@@ -77,15 +77,19 @@ export const ChallengesMobile = () => {
                   <IoMdInformationCircleOutline />
                 </span>
               </button>
-
-              <button className="bg-[#FFC947] rounded-md text-black  flex items-center justify-center h-12">
-                <span className=" text-sm font-bold ">Inscrie-te aici</span>
-                <span className="inline-block bg-black text-white rounded-full h-6 w-6  justify-center items-center ml-5">
-                  {" "}
-                  <Fragment></Fragment>
-                  <span className="text-white">{">"}</span>
-                </span>
-              </button>
+              <a
+                href="https://cyber-edu.co/register?token=40a121ba7d8ac969b5d08e041632f81ad4a599d11f054d4d1812ac94f480c4e34b4a9548de58bdf3"
+                target="_blank"
+              >
+                <button className="bg-[#FFC947] rounded-md text-black  flex items-center justify-center h-12">
+                  <span className=" text-sm font-bold ">Inscrie-te aici</span>
+                  <span className="inline-block bg-black text-white rounded-full h-6 w-6  justify-center items-center ml-5">
+                    {" "}
+                    <Fragment></Fragment>
+                    <span className="text-white">{">"}</span>
+                  </span>
+                </button>
+              </a>
               <img
                 src={PremiiML}
                 about="Premii"
@@ -149,15 +153,19 @@ export const ChallengesMobile = () => {
                   <IoMdInformationCircleOutline />
                 </span>
               </button>
-
-              <button className="bg-[#FFC947] rounded-md text-black  flex items-center justify-center h-12">
-                <span className=" text-sm font-bold ">Inscrie-te aici</span>
-                <span className="inline-block bg-black text-white rounded-full h-6 w-6  justify-center items-center ml-5">
-                  {" "}
-                  <Fragment></Fragment>
-                  <span className="text-white">{">"}</span>
-                </span>
-              </button>
+              <a
+                href="https://cyber-edu.co/register?token=40a121ba7d8ac969b5d08e041632f81ad4a599d11f054d4d1812ac94f480c4e34b4a9548de58bdf3"
+                target="_blank"
+              >
+                <button className="bg-[#FFC947] rounded-md text-black  flex items-center justify-center h-12">
+                  <span className=" text-sm font-bold ">Inscrie-te aici</span>
+                  <span className="inline-block bg-black text-white rounded-full h-6 w-6  justify-center items-center ml-5">
+                    {" "}
+                    <Fragment></Fragment>
+                    <span className="text-white">{">"}</span>
+                  </span>
+                </button>
+              </a>
               <img
                 src={PremiiCapture}
                 about="Premii"
@@ -215,15 +223,19 @@ export const ChallengesMobile = () => {
                   <IoMdInformationCircleOutline />
                 </span>
               </button>
-
-              <button className="bg-[#FFC947] rounded-md text-black  flex items-center justify-center h-12">
-                <span className=" text-sm font-bold ">Inscrie-te aici</span>
-                <span className="inline-block bg-black text-white rounded-full h-6 w-6  justify-center items-center ml-5">
-                  {" "}
-                  <Fragment></Fragment>
-                  <span className="text-white">{">"}</span>
-                </span>
-              </button>
+              <a
+                href="https://cyber-edu.co/register?token=40a121ba7d8ac969b5d08e041632f81ad4a599d11f054d4d1812ac94f480c4e34b4a9548de58bdf3"
+                target="_blank"
+              >
+                <button className="bg-[#FFC947] rounded-md text-black  flex items-center justify-center h-12">
+                  <span className=" text-sm font-bold ">Inscrie-te aici</span>
+                  <span className="inline-block bg-black text-white rounded-full h-6 w-6  justify-center items-center ml-5">
+                    {" "}
+                    <Fragment></Fragment>
+                    <span className="text-white">{">"}</span>
+                  </span>
+                </button>
+              </a>
               <img
                 src={PremiiConnect}
                 about="Premii"
