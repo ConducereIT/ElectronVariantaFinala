@@ -6,12 +6,12 @@ export default function NewCarousel() {
   return (
     <>
       {/* For Mobile Phone */}
-      <div className="md:hidden flex justify-center ">
+      <div className="lg:hidden flex justify-center ">
         <h1 className=" mt-10 text-3xl font-bold whitespace-nowrap mb-6 text-frumos text-white">
           Juriu
         </h1>
       </div>
-      <div className="md:hidden mx-8">
+      <div className="lg:hidden mx-8">
         <Carousel
           showStatus={false}
           showThumbs={false}
@@ -32,7 +32,7 @@ export default function NewCarousel() {
         </Carousel>
       </div>
       {/* For Desktop */}
-      <div className="hidden md:block ">
+      <div className="hidden lg:block ">
         <div className=" flex justify-center ">
           <h1 className="mt-10 text- text-frumos font-bold whitespace-nowrap p-4 mb-6 text-white">
             Juriu

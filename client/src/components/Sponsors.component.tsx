@@ -9,16 +9,16 @@ import CyberEdu from "../assets/cyberEDU-logo-alternative 1.svg";
 export default function Sponsors() {
   return (
     <>
-      <div className="mt-10 md:mt-24">
+      <div className="mt-10 lg:mt-24">
         <h3 className="text-frumos text-1xl h-20 flex text-xl justify-center items-center text-white">
           Powered by
-          <img className="ml-3 md:ml-6 md:scale-125" src={OrangeLogo} alt="" />
+          <img className="ml-3 lg:ml-6 lg:scale-125" src={OrangeLogo} alt="" />
         </h3>
-        <div className=" grid md:grid-cols-6 md:mx-24 items-center place-items-center gap-2 md:gap-0">
-          <img src={Gold} alt="Gold" className=" md:col-span-2 scale-75" />
-          <img src={Silver} alt="Silver" className=" md:col-span-2 scale-75" />
-          <img src={Bronze} alt="Bronze" className="md:col-span-2 scale-75" />
-          <div className="md:hidden mt-10">
+        <div className=" grid lg:grid-cols-6 lg:mx-24 items-center place-items-center gap-2 lg:gap-0">
+          <img src={Gold} alt="Gold" className=" lg:col-span-2 scale-75" />
+          <img src={Silver} alt="Silver" className=" lg:col-span-2 scale-75" />
+          <img src={Bronze} alt="Bronze" className="lg:col-span-2 scale-75" />
+          <div className="lg:hidden mt-10">
             <p className="text-frumos text-white">
               Eveniment organizat cu sprijinul
             </p>
@@ -30,7 +30,7 @@ export default function Sponsors() {
             </div>
           </div>
         </div>
-        <div className="hidden md:block mt-10">
+        <div className="hidden lg:block mt-10">
           <div className="grid grid-cols-7 mt-5 mx-24">
             <p className="text-frumos col-span-3 text-white">
               Eveniment organizat cu sprijinul
