@@ -58,7 +58,7 @@ export const Countdow: React.FC<CountdownProps> = ({ numarMinute }) => {
 
   return (
     <>
-      <div className="w-full flex justify-center text-[#FFFFFF] md:scale-[100%] scale-[40%] mb-24 z-10 text-frumos space-x-4">
+      <div className="w-full flex justify-center text-[#FFFFFF] lg:scale-[100%] scale-[40%] mb-24 z-10 text-frumos space-x-4">
         <div className="time-section ">
           <div className="time text-8xl font-extrabold text-frumos">
             {state.days || "0"}

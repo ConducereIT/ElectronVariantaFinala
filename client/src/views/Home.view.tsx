@@ -32,10 +32,10 @@ const Home = () => {
   return (
     <React.Fragment>
       {/* Desktop */}
-      <div className="hidden md:block">
+      <div className="hidden lg:block">
         <Header setOpen={setOpen} />
       </div>
-      <div className="hidden md:block">
+      <div className="hidden lg:block">
         <img
           id="AboutUs"
           className="absolute -left-96 -ml-28 -top-80 opacity-95 -z-10"
@@ -53,7 +53,7 @@ const Home = () => {
           alt=""
         />
       </div>
-      <div className="hidden md:block mt-30  h-auto w-auto">
+      <div className="hidden lg:block mt-30  h-auto w-auto">
         <div className="h-96 mt-40 mb-20 z-10">
           <MainText />
           <a href="">
@@ -81,34 +81,34 @@ const Home = () => {
           <div className="absolute z-10 left-[30%] -mt-10 right-[30%]">
             <Countdow numarMinute={10} />
           </div>
-          <img className="md:mt-10 scale-150" src={LaptopSVG} alt="" />
+          <img className="lg:mt-10 scale-150" src={LaptopSVG} alt="" />
         </div>
       </div>
-      <div id="Challenges" className="hidden md:block mt-96 h-auto w-auto">
+      <div id="Challenges" className="hidden lg:block mt-96 h-auto w-auto">
         <Challenges />
       </div>
 
       <ControlledPopup open={open} setOpen={setOpen} />
 
-      <div className=" hidden md:block mb-16">
+      <div className=" hidden lg:block mb-16">
         <NewCarousel />
       </div>
-      <div id="FAQ" className="hidden md:block">
+      <div id="FAQ" className="hidden lg:block">
         <Faq />
       </div>
-      <div id="Parteneri" className="hidden md:block">
+      <div id="Parteneri" className="hidden lg:block">
         <Sponsors />
       </div>
       <div
         id="Contact"
-        className="hidden md:block  w-[100%] bg-[#000000] absolute h-80  left-0 mt-20"
+        className="hidden lg:block  w-[100%] bg-[#000000] absolute h-80  left-0 mt-20"
       >
         <Footer />
       </div>
 
       {/* Mobile */}
       <div className=" mt-10" id="AboutUsM">
-        <div className="md:hidden object-contain">
+        <div className="lg:hidden object-contain">
           <img
             className="absolute scale-100 -top-20 -left-40 opacity-95 rounded-full -z-10"
             src={BlueBlur}
@@ -125,10 +125,10 @@ const Home = () => {
             alt=""
           />
         </div>
-        <div className="md:hidden">
+        <div className="lg:hidden">
           <HeaderMobile setOpen={setOpen} />
         </div>
-        <div className="md:hidden">
+        <div className="lg:hidden">
           <MainTextMobile />
           <a
             href="https://cyber-edu.co/register?token=40a121ba7d8ac969b5d08e041632f81ad4a599d11f054d4d1812ac94f480c4e34b4a9548de58bdf3"
@@ -148,13 +148,13 @@ const Home = () => {
           </a>
         </div>
 
-        <div className="md:hidden mx-auto">
+        <div className="lg:hidden mx-auto">
           <div className="h-full w-full mt-60 flex justify-center ">
             <div className="absolute z-10  ">
               <CountdownMobile numarMinute={10} />
             </div>
             <img
-              className="absolute md:mt-10 object-contain w-[90%] -translate-y-8"
+              className="absolute lg:mt-10 object-contain w-[90%] -translate-y-8"
               src={LaptopMobileSVG}
               alt="Laptop"
             />
@@ -171,19 +171,19 @@ const Home = () => {
             />
           </div>
         </div>
-        <div id="ChallengesM" className="md:hidden mx-auto  mt-12">
+        <div id="ChallengesM" className="lg:hidden mx-auto  mt-12">
           <ChallengesMobile />
         </div>
-        <div className="md:hidden mx-auto">
+        <div className="lg:hidden mx-auto">
           <NewCarousel />
         </div>
-        <div id="FAQM" className="md:hidden mx-auto">
+        <div id="FAQM" className="lg:hidden mx-auto">
           <Faq />
         </div>
-        <div id="ParteneriM" className="md:hidden mx-auto">
+        <div id="ParteneriM" className="lg:hidden mx-auto">
           <Sponsors />
         </div>
-        <div id="ContactM" className="md:hidden mx-auto ">
+        <div id="ContactM" className="lg:hidden mx-auto ">
           <FooterMobile />
         </div>
       </div>

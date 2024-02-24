@@ -85,7 +85,7 @@ const HeaderMobile: React.FC<HeaderProps> = ({ setOpen }) => {
         {nav && (
           <IoMdClose
             onClick={handleNav}
-            className=" fixed top-8 right-5 z-[99] md:hidden text-blue-950 outline-4 font-extrabold"
+            className=" fixed top-8 right-5 z-[99] lg:hidden text-blue-950 outline-4 font-extrabold"
             size={30}
             color="white"
           />
@@ -95,7 +95,7 @@ const HeaderMobile: React.FC<HeaderProps> = ({ setOpen }) => {
           {!nav && (
             <AiOutlineMenu
               onClick={handleNav}
-              className=" z-[99] md:hidden text-blue-950 outline-4 font-extrabold"
+              className=" z-[99] lg:hidden text-blue-950 outline-4 font-extrabold"
               size={20}
               color="white"
             />
