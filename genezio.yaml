@@ -1,4 +1,4 @@
-name: test
+name: electron
 region: eu-central-1
 language: ts
 cloudProvider: genezio
@@ -8,7 +8,7 @@ scripts:
   preStartLocal: cd server && npm install
 frontend:
   path: client/dist
-  subdomain: sapphire-tame-lobster
+  subdomain: cyan-tremendous-minnow
 packageManager: npm
 workspace:
   backend: server
