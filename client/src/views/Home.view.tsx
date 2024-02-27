@@ -66,7 +66,7 @@ const Home = () => {
                 )
               }
             >
-              <span className="mr-2 scale-125 absolute left-10 font-bold">
+              <span className="scale-125 absolute left-10 font-bold text-frumos pr-8">
                 Inscrie-te aici
               </span>
               <div className="absolute right-2.5">
