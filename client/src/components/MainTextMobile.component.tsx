@@ -13,7 +13,7 @@ export default function MainTextMobile() {
       </h3>
       <div className="flex justify-center">
         <h3 className="text-frumos text-sm flex items-center">
-          powered by Orange <img className=" ml-4" src={OrangeLogo} alt="" />
+          powered by <img className=" ml-3" src={OrangeLogo} alt="" />
         </h3>
       </div>
     </>
