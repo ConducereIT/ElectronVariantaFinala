@@ -16,19 +16,19 @@ const Header: React.FC<HeaderProps> = ({ setOpen }) => {
         </div>
         <div className="absolute right-0 mr-10 space-x-7 text-2xl text-white">
           <a
-            className="text-white hover:text-[#FFC947] hover:animate-pulse"
+            className="text-white hover:text-[#FFC947] hover:animate-pulse text-frumos tracking-tighter"
             href="#AboutUs"
           >
             Despre noi
           </a>
           <a
-            className="text-white hover:text-[#FFC947] hover:animate-pulse"
+            className="text-white hover:text-[#FFC947] hover:animate-pulse text-frumos tracking-tighter"
             href="#Challenges"
           >
             Probe
           </a>
           <a
-            className="text-white hover:text-[#FFC947] hover:animate-pulse"
+            className="text-white hover:text-[#FFC947] hover:animate-pulse text-frumos tracking-tighter"
             href="#Program"
             onClick={handleLinkClick}
           >
@@ -36,20 +36,20 @@ const Header: React.FC<HeaderProps> = ({ setOpen }) => {
           </a>
 
           <a
-            className="text-white hover:text-[#FFC947] hover:animate-pulse"
+            className="text-white hover:text-[#FFC947] hover:animate-pulse text-frumos tracking-tighter"
             href="#FAQ"
             onClick={handleLinkClick}
           >
             FAQ
           </a>
           <a
-            className="text-white hover:text-[#FFC947] hover:animate-pulse"
+            className="text-white hover:text-[#FFC947] hover:animate-pulse text-frumos tracking-tighter"
             href="#Parteneri"
           >
             Parteneri
           </a>
           <a
-            className="text-white hover:text-[#FFC947] hover:animate-pulse"
+            className="text-white hover:text-[#FFC947] hover:animate-pulse text-frumos tracking-tighter"
             href="#Contact"
           >
             Contact
