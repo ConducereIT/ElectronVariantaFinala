@@ -23,7 +23,7 @@ export default function Sponsors() {
         <div className=" grid lg:grid-cols-6 lg:mx-0 items-center place-items-center gap-2 lg:gap-0">
            <img onClick={() =>
                    window.open(
-                       "https://cyber-edu.co/register?token=40a121ba7d8ac969b5d08e041632f81ad4a599d11f054d4d1812ac94f480c4e34b4a9548de58bdf3",
+                       "https://madenn.ro/",
                        "_blank"
                    )
                }
