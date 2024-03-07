@@ -95,7 +95,9 @@ const HeaderMobile: React.FC<HeaderProps> = ({ setOpen }) => {
           />
         )}
         <div className="   fixed flex justify-between z-[97] w-full top-0 left-0 px-5 py-4 bg-[#091931] ">
-          <img src={Logo} alt="Logo" />
+          <a href="/">
+            <img src={Logo} alt="Logo" />
+          </a>
           {!nav && (
             <AiOutlineMenu
               onClick={handleNav}
