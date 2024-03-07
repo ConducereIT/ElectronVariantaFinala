@@ -6,8 +6,6 @@ scripts:
   preBackendDeploy: npm install
   preFrontendDeploy: npm install @genezio-sdk/test_eu-central-1 && npm install && npm run build
   preStartLocal: cd server && npm install
-options:
-  nodeRuntime: nodejs18.x
 frontend:
   path: client/dist
   subdomain: cyan-tremendous-minnow
