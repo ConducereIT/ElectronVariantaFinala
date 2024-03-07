@@ -9,7 +9,6 @@ const Footer = () => {
 
     return (
         <>
-
             <div className="w-[80%] h-full  mx-auto relative">
                 <a><img src={FooterLogo} alt="Electron Logo" className="pt-16"/></a>
                 <a><img onClick={() => console.log("terms")} src={Terms} alt="Terms and Conditions"
