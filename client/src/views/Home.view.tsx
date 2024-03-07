@@ -23,7 +23,7 @@ import { ChallengesMobile } from "../section/ChallengesMobile.tsx";
 import FooterMobile from "../section/FooterMobile.component.tsx";
 import ControlledPopup from "../components/Popup.component.tsx";
 // import NewCarousel from "../components/NewCarousel.component.tsx";
-// import Faq from "../components/Faq.component.tsx";
+import Faq from "../components/Faq.component.tsx";
 import Sponsors from "../components/Sponsors.component.tsx";
 
 const Home = () => {
@@ -93,9 +93,9 @@ const Home = () => {
       {/* <div className=" hidden lg:block mb-16">
         <NewCarousel />
       </div> */}
-      {/* <div id="FAQ" className="hidden lg:block">
+      <div id="FAQ" className="hidden lg:block">
         <Faq />
-      </div> */}
+      </div>
       <div id="Parteneri" className="hidden lg:block">
         <Sponsors />
       </div>
@@ -177,9 +177,9 @@ const Home = () => {
         {/* <div className="lg:hidden mx-auto">
           <NewCarousel />
         </div> */}
-        {/* <div id="FAQM" className="lg:hidden mx-auto">
+        <div id="FAQM" className="lg:hidden mx-auto">
           <Faq />
-        </div> */}
+        </div>
         <div id="ParteneriM" className="lg:hidden mx-auto">
           <Sponsors />
         </div>
