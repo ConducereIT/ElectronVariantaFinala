@@ -3,17 +3,10 @@ import { AiOutlineMenu } from "react-icons/ai";
 import { IoMdClose } from "react-icons/io";
 import Logo from "../assets/Logo2.svg";
 
-interface HeaderProps {
-  setOpen: (isOpen: boolean) => void;
-}
-const HeaderMobile: React.FC<HeaderProps> = ({ setOpen }) => {
+const HeaderMobile = () => {
   const [nav, setNav] = useState(false);
   const handleNav = () => {
     setNav(!nav);
-  };
-
-  const handleLinkClick = () => {
-    setOpen(true);
   };
 
   let content;
@@ -39,11 +32,7 @@ const HeaderMobile: React.FC<HeaderProps> = ({ setOpen }) => {
             </p>
           </button>
         </a>
-        <a
-          onClick={handleLinkClick}
-          href="#Program"
-          className="border-b-2 pb-2 w-1/2 border-[#ffc947]"
-        >
+        <a href="#ProgramM" className="border-b-2 pb-2 w-1/2 border-[#ffc947]">
           <button onClick={handleNav}>
             <p className="text-white/90 text-frumos text-nowrap pr-10 text-left">
               Program
@@ -51,11 +40,7 @@ const HeaderMobile: React.FC<HeaderProps> = ({ setOpen }) => {
           </button>
         </a>
 
-        <a
-          href="#FAQM"
-          className="border-b-2 pb-2 w-1/2 border-[#ffc947] "
-          onClick={handleLinkClick}
-        >
+        <a href="#FAQM" className="border-b-2 pb-2 w-1/2 border-[#ffc947] ">
           <button onClick={handleNav}>
             <p className="text-white/90 text-frumos text-nowrap pr-10 text-left">
               FAQ
