@@ -28,7 +28,6 @@ import Sponsors from "../components/Sponsors.component.tsx";
 import ProgramPC from "../section/Program.tsx";
 import ProgramMobile from "../section/ProgramMobile.tsx";
 
-
 const Home = () => {
   const [open, setOpen] = useState(false);
 
@@ -36,7 +35,7 @@ const Home = () => {
     <React.Fragment>
       {/* Desktop */}
       <div className="hidden lg:block">
-        <Header setOpen={setOpen}/>
+        <Header setOpen={setOpen} />
       </div>
       <div className="hidden lg:block">
         <img
@@ -58,7 +57,7 @@ const Home = () => {
       </div>
       <div className="hidden lg:block mt-30  h-auto w-auto">
         <div className="h-96 mt-40 mb-20 z-10">
-          <MainText/>
+          <MainText />
           <a href="">
             <button
               className="bg-[#FFC947] rounded-md mb-10 text-black w-60 flex items-center absolute mt-8 h-12 left-1/2 transform -translate-x-1/2"
@@ -82,34 +81,34 @@ const Home = () => {
         </div>
         <div className="h-full w-full mt-60 ">
           <div className="absolute z-10 left-[30%] -mt-10 right-[30%]">
-            <Countdow numarMinute={10}/>
+            <Countdow numarMinute={10} />
           </div>
-          <img className="lg:mt-10 scale-150" src={LaptopSVG} alt=""/>
+          <img className="lg:mt-10 scale-150" src={LaptopSVG} alt="" />
         </div>
       </div>
       <div id="Challenges" className="hidden lg:block mt-96 h-auto w-auto">
-        <Challenges/>
+        <Challenges />
       </div>
 
-      <ControlledPopup open={open} setOpen={setOpen}/>
+      <ControlledPopup open={open} setOpen={setOpen} />
 
       {/* <div className=" hidden lg:block mb-16">
         <NewCarousel />
       </div> */}
       <div id="Program" className="hidden lg:block mx-auto pt-12 pb-6">
-        <ProgramPC/>
+        <ProgramPC />
       </div>
       <div id="FAQ" className="hidden lg:block">
-        <Faq/>
+        <Faq />
       </div>
       <div id="Parteneri" className="hidden lg:block">
-        <Sponsors/>
+        <Sponsors />
       </div>
       <div
         id="Contact"
         className="hidden lg:block  w-[100%] bg-[#000000] absolute h-80  left-0 mt-20"
       >
-        <Footer/>
+        <Footer />
       </div>
 
       {/* Mobile */}
@@ -132,17 +131,16 @@ const Home = () => {
           />
         </div>
         <div className="lg:hidden">
-          <HeaderMobile setOpen={setOpen}/>
+          <HeaderMobile />
         </div>
         <div className="lg:hidden">
-          <MainTextMobile/>
+          <MainTextMobile />
           <a
             href="https://cyber-edu.co/register?token=40a121ba7d8ac969b5d08e041632f81ad4a599d11f054d4d1812ac94f480c4e34b4a9548de58bdf3"
             target="_blank"
             className="flex justify-center"
           >
-            <button
-              className="bg-[#FFC947] rounded-lg text-frumos my-10 p-6 text-black w-60 flex justify-center items-center absolute">
+            <button className="bg-[#FFC947] rounded-lg text-frumos my-10 p-6 text-black w-60 flex justify-center items-center absolute">
               <span className="mr-2 scale-125 absolute pr-4 font-bold">
                 Inscrie-te aici
               </span>
@@ -158,7 +156,7 @@ const Home = () => {
         <div className="lg:hidden mx-auto">
           <div className="h-full w-full mt-60 flex justify-center ">
             <div className="absolute z-10  ">
-              <CountdownMobile numarMinute={10}/>
+              <CountdownMobile numarMinute={10} />
             </div>
             <img
               className="absolute lg:mt-10 object-contain w-[90%] -translate-y-8"
@@ -179,23 +177,23 @@ const Home = () => {
           </div>
         </div>
         <div id="ChallengesM" className="lg:hidden mx-auto  mt-12">
-          <ChallengesMobile/>
+          <ChallengesMobile />
         </div>
         {/* <div className="lg:hidden mx-auto">
           <NewCarousel />
         </div> */}
         <div id="ProgramM" className="lg:hidden mx-auto">
-          <ProgramMobile/>
+          <ProgramMobile />
         </div>
         <div id="FAQM" className="lg:hidden mx-auto">
-          <Faq/>
+          <Faq />
         </div>
 
         <div id="ParteneriM" className="lg:hidden mx-auto">
-          <Sponsors/>
+          <Sponsors />
         </div>
         <div id="ContactM" className="lg:hidden mx-auto ">
-          <FooterMobile/>
+          <FooterMobile />
         </div>
       </div>
     </React.Fragment>
