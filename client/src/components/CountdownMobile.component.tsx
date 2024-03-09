@@ -1,9 +1,5 @@
 import { useState, useEffect } from "react";
-export interface CountdownProps {
-  numarMinute: number;
-}
-
-export const CountdownMobile: React.FC<CountdownProps> = ({ numarMinute }) => {
+export const CountdownMobile= () => {
   const [countdownDate] = useState<number>(
     new Date("3/10/2024 10:30:00 AM").getTime()
   );
