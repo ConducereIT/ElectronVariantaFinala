@@ -81,7 +81,7 @@ const Home = () => {
         </div>
         <div className="h-full w-full mt-60 ">
           <div className="absolute z-10 left-[30%] -mt-10 right-[30%]">
-            <Countdow numarMinute={10} />
+            <Countdow />
           </div>
           <img className="lg:mt-10 scale-150" src={LaptopSVG} alt="" />
         </div>
@@ -156,7 +156,7 @@ const Home = () => {
         <div className="lg:hidden mx-auto">
           <div className="h-full w-full mt-60 flex justify-center ">
             <div className="absolute z-10  ">
-              <CountdownMobile numarMinute={10} />
+              <CountdownMobile />
             </div>
             <img
               className="absolute lg:mt-10 object-contain w-[90%] -translate-y-8"
