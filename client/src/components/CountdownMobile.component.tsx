@@ -5,7 +5,7 @@ export interface CountdownProps {
 
 export const CountdownMobile: React.FC<CountdownProps> = ({ numarMinute }) => {
   const [countdownDate] = useState<number>(
-    new Date("3/9/2024").getTime() + numarMinute * 60 * 1000
+    new Date("3/10/2024 10:30:00 AM").getTime()
   );
 
   const [state, setState] = useState<{
